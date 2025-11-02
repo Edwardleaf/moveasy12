@@ -1,0 +1,18 @@
+{
+  "questionnaire_images": [
+    "/images/buildings/building_127.jpg",
+    "/images/buildings/building_160.jpg",
+    "/images/buildings/building_024.jpg",
+    "/images/buildings/building_090.jpg",
+    "/images/buildings/building_093.jpg",
+    "/images/buildings/building_074.jpg",
+    "/images/buildings/building_039.jpg",
+    "/images/buildings/building_148.jpg"
+  ],
+  "total_available": 180,
+  "counties": {
+    "san_francisco": 180,
+    "san_mateo": 113,
+    "santa_clara": 60
+  }
+}

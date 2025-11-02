@@ -1,0 +1,154 @@
+@import './variables.css';
+
+/* 重置样式 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: var(--font-family);
+  font-size: 16px;
+  color: var(--text-primary);
+  background-color: var(--background-color);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button, .btn {
+  cursor: pointer;
+  font-family: var(--font-family);
+  border-radius: var(--border-radius);
+  border: none;
+  padding: var(--spacing-sm) var(--spacing-md);
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+}
+
+input, select, textarea {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  outline: none;
+  width: 100%;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(25, 135, 84, 0.2);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-1 { margin-top: var(--spacing-xs); }
+.mt-2 { margin-top: var(--spacing-sm); }
+.mt-3 { margin-top: var(--spacing-md); }
+.mt-4 { margin-top: var(--spacing-lg); }
+.mt-5 { margin-top: var(--spacing-xl); }
+
+.mb-1 { margin-bottom: var(--spacing-xs); }
+.mb-2 { margin-bottom: var(--spacing-sm); }
+.mb-3 { margin-bottom: var(--spacing-md); }
+.mb-4 { margin-bottom: var(--spacing-lg); }
+.mb-5 { margin-bottom: var(--spacing-xl); }
+
+/* 表单样式 */
+.form-group {
+  margin-bottom: var(--spacing-md);
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: var(--spacing-xs);
+  font-weight: 500;
+}
+
+.form-error {
+  color: var(--error-color);
+  font-size: 0.875rem;
+  margin-top: var(--spacing-xs);
+}
+
+/* 卡片样式 */
+.card {
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: var(--spacing-lg);
+}
+
+/* 成功提示样式 */
+.alert-success {
+  background-color: var(--success-bg);
+  color: var(--success-color);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--border-radius);
+  margin-bottom: var(--spacing-md);
+}
+
+/* 高亮背景 */
+.highlight {
+  background-color: var(--highlight-bg);
+  padding: var(--spacing-xs);
+  border-radius: var(--border-radius);
+}
+
+/* Admin Action按钮样式 */
+.action-btn.edit-btn {
+  background-color: #198754 !important;
+  color: #fff !important;
+  border: 1px solid #198754 !important;
+  border-radius: 8px !important;
+  padding: 5px 15px !important;
+  transition: all 0.3s ease !important;
+}
+
+.action-btn.edit-btn:hover {
+  background-color: #0f5132 !important;
+  border-color: #0f5132 !important;
+}
+
+.action-btn.delete-btn {
+  background-color: #dc3545 !important;
+  color: #fff !important;
+  border: 1px solid #dc3545 !important;
+  border-radius: 8px !important;
+  padding: 5px 15px !important;
+  transition: all 0.3s ease !important;
+}
+
+.action-btn.delete-btn:hover {
+  background-color: #b02a37 !important;
+  border-color: #b02a37 !important;
+} 

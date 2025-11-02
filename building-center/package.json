@@ -1,0 +1,40 @@
+{
+  "_comment": "Areas数据同步系统已配置",
+  "name": "building-center",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sync-areas": "node ../scripts/sync-areas.js",
+    "sync-areas-dry": "node ../scripts/sync-areas.js --dry-run",
+    "watch-json": "node ../scripts/watch-json-files.js",
+    "watch-json-auto": "node ../scripts/watch-json-files.js --auto-sync"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.828.0",
+    "@supabase/supabase-js": "^2.50.0",
+    "@turf/simplify": "^7.2.0",
+    "@turf/union": "^7.2.0",
+    "@vicons/ionicons5": "^0.13.0",
+    "@vue-leaflet/vue-leaflet": "^0.10.1",
+    "amazon-cognito-identity-js": "^6.3.15",
+    "axios": "^1.10.0",
+    "buffer": "^6.0.3",
+    "crypto-js": "^4.2.0",
+    "jszip": "^3.10.1",
+    "leaflet": "^1.9.4",
+    "naive-ui": "^2.41.0",
+    "osmtogeojson": "^3.0.0-beta.5",
+    "process": "^0.11.10",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "vite": "^6.3.5",
+    "vite-plugin-inspect": "^11.1.0"
+  }
+}
