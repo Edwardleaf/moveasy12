@@ -817,6 +817,7 @@ import LanguageSwitcher from '../components/LanguageSwitcher.vue'
 import TranslatedText from '../components/TranslatedText.vue'
 import useTranslation from '../composables/useTranslation'
 import { buildingImages as defaultBuildingImages } from '../config/buildingImages'
+import { smartGeocode } from '../utils/addressParser'
 
 const router = useRouter()
 const message = useMessage()
@@ -1541,31 +1542,7 @@ const handleQuestionBack = () => {
 // 地理编码：将地址转换为坐标
 const geocodeAddress = async (address) => {
   try {
-    // 使用Nominatim API（OpenStreetMap的免费地理编码服务）
-    const response = await fetch(
-      `https://nominatim.openstreetmap.org/search?` +
-      `q=${encodeURIComponent(address)}&` +
-      `format=json&` +
-      `limit=1&` +
-      `countrycodes=us`
-    )
-    
-    if (!response.ok) {
-      throw new Error('Geocoding API request failed')
-    }
-    
-    const data = await response.json()
-    
-    if (data && data.length > 0) {
-      const result = data[0]
-      return {
-        lat: parseFloat(result.lat),
-        lon: parseFloat(result.lon),
-        displayName: result.display_name
-      }
-    }
-    
-    return null
+    return await smartGeocode(address)
   } catch (error) {
     console.error('地理编码失败:', error)
     return null

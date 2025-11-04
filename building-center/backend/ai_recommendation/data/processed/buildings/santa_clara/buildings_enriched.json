@@ -1,0 +1,6176 @@
+[
+  {
+    "building_id": "santa_clara_001",
+    "title": "Villaggio",
+    "address": "2855 The Villages Pkwy, San Jose, CA 95135美国",
+    "lat": 37.290829,
+    "lon": -121.762664,
+    "type": "公寓建筑",
+    "phone": "+1 408-270-7040",
+    "website": "https://caremgt.com/villaggio/",
+    "review_rating": "",
+    "review_count": "",
+    "pricing": "$1,580 - $5,290",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/Villaggio/data=!4m7!3m6!1s0x808e2c3283d49b49:0xfbd78d6002cf5f61!8m2!3d37.290829!4d-121.762664!16s%2Fg%2F1tdl1sxf!19sChIJSZvUgzIsjoARYV_PAmCN1_s?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_001.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2250,
+        "rentRangeLow": 1790,
+        "rentRangeHigh": 2710
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2120,
+        "rentRangeLow": 1580,
+        "rentRangeHigh": 2650
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3060,
+        "rentRangeLow": 2620,
+        "rentRangeHigh": 3510
+      },
+      {
+        "bedrooms": 3,
+        "rent": 4430,
+        "rentRangeLow": 3570,
+        "rentRangeHigh": 5290
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 17,
+      "subway_stations": 0,
+      "total_transit": 17,
+      "transit_score": "good"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 1,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 1,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 17,
+      "car_score": 40,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 79,
+      "by_category": {
+        "public_disorder": 72,
+        "property": 6,
+        "violent": 1
+      },
+      "safety_score": "excellent"
+    }
+  },
+  {
+    "building_id": "santa_clara_002",
+    "title": "The Carlyle Apartments",
+    "address": "2909 Nieman Blvd, San Jose, CA 95148美国",
+    "lat": 37.3152943,
+    "lon": -121.8068369,
+    "type": "公寓建筑",
+    "phone": "+1 408-837-7312",
+    "website": "https://www.essexapartmenthomes.com/apartments/san-jose/the-carlyle?sc_camp=2648D1300BEC431BB11EB86F02F52DBD&utm_source=googlesearch",
+    "review_rating": "3.5",
+    "review_count": "37",
+    "pricing": "$1,870 - $4,100",
+    "status": "星期四, 09:00–18:00\n星期五, 09:00–18:00\n星期六, 09:00–18:00\n星期日, 休息\n星期一, 09:00–18:00\n星期二, 09:00–18:00\n星期三, 10:00–18:00",
+    "google_map_url": "https://www.google.com/maps/place/The+Carlyle+Apartments/data=!4m7!3m6!1s0x808e2d7cc3556241:0xf8ac6ace64d57cb8!8m2!3d37.3152943!4d-121.8068369!16s%2Fg%2F1tkp5685!19sChIJQWJVw3wtjoARuHzVZM5qrPg?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_002.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场",
+      ": 允许带狗"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2130,
+        "rentRangeLow": 1870,
+        "rentRangeHigh": 2380
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2170,
+        "rentRangeLow": 1980,
+        "rentRangeHigh": 2360
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2980,
+        "rentRangeLow": 2590,
+        "rentRangeHigh": 3370
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3910,
+        "rentRangeLow": 3720,
+        "rentRangeHigh": 4100
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 48,
+      "subway_stations": 0,
+      "total_transit": 48,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 4,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 4,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 48,
+      "car_score": 20,
+      "car_friendly_rating": "good"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 801,
+      "by_category": {
+        "public_disorder": 725,
+        "property": 48,
+        "violent": 28
+      },
+      "safety_score": "good"
+    }
+  },
+  {
+    "building_id": "santa_clara_003",
+    "title": "Foothill Manor Apartments",
+    "address": "1500 S White Rd, San Jose, CA 95127美国",
+    "lat": 37.349636,
+    "lon": -121.8125305,
+    "type": "公寓建筑",
+    "phone": "+1 408-937-1540",
+    "website": "https://www.foothillmanorapartments.com/",
+    "review_rating": "5.0",
+    "review_count": "1",
+    "pricing": "$1,150 - $4,640",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/Foothill+Manor+Apartments/data=!4m7!3m6!1s0x808fcd5645b07885:0xcbe83d3496ed3072!8m2!3d37.349636!4d-121.8125305!16s%2Fg%2F1tfkq_s6!19sChIJhXiwRVbNj4ARcjDtljQ96Ms?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_003.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 1540,
+        "rentRangeLow": 1150,
+        "rentRangeHigh": 1940
+      },
+      {
+        "bedrooms": 1,
+        "rent": 1570,
+        "rentRangeLow": 1150,
+        "rentRangeHigh": 1990
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2600,
+        "rentRangeLow": 2090,
+        "rentRangeHigh": 3100
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3820,
+        "rentRangeLow": 3000,
+        "rentRangeHigh": 4640
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 28,
+      "subway_stations": 0,
+      "total_transit": 28,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 2,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 2,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 28,
+      "car_score": 40,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 813,
+      "by_category": {
+        "public_disorder": 770,
+        "property": 23,
+        "violent": 20
+      },
+      "safety_score": "good"
+    }
+  },
+  {
+    "building_id": "santa_clara_004",
+    "title": "Oak Tree Village Apartments",
+    "address": "100 Branham Ln E, San Jose, CA 95111美国",
+    "lat": 37.2687615,
+    "lon": -121.8213804,
+    "type": "公寓建筑",
+    "phone": "+1 408-224-2517",
+    "website": "https://caremgt.com/oak-tree-village/",
+    "review_rating": "4.2",
+    "review_count": "11",
+    "pricing": "$1,680 - $4,080",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/Oak+Tree+Village+Apartments/data=!4m7!3m6!1s0x808e32225ca4e05f:0x5bac0558df8a4739!8m2!3d37.2687615!4d-121.8213804!16s%2Fg%2F1tdh42rk!19sChIJX-CkXCIyjoAROUeK31gFrFs?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_004.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2090,
+        "rentRangeLow": 1680,
+        "rentRangeHigh": 2500
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2230,
+        "rentRangeLow": 1770,
+        "rentRangeHigh": 2690
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2990,
+        "rentRangeLow": 2660,
+        "rentRangeHigh": 3320
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3630,
+        "rentRangeLow": 3170,
+        "rentRangeHigh": 4080
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 49,
+      "subway_stations": 0,
+      "total_transit": 49,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 2,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 2,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 49,
+      "car_score": 20,
+      "car_friendly_rating": "good"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 797,
+      "by_category": {
+        "public_disorder": 742,
+        "property": 34,
+        "violent": 21
+      },
+      "safety_score": "good"
+    }
+  },
+  {
+    "building_id": "santa_clara_005",
+    "title": "Foxdale Village Apartments",
+    "address": "1250 Foxdale Loop, San Jose, CA 95122美国",
+    "lat": 37.346469,
+    "lon": -121.8263741,
+    "type": "公寓建筑",
+    "phone": "+1 408-251-1142",
+    "website": "https://www.liveatfoxdale.com/",
+    "review_rating": "2.5",
+    "review_count": "22",
+    "pricing": "$1,310 - $4,320",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/Foxdale+Village+Apartments/data=!4m7!3m6!1s0x808fcd4f19413df5:0xd58fba9fffd630fe!8m2!3d37.346469!4d-121.8263741!16s%2Fg%2F1tghpt_4!19sChIJ9T1BGU_Nj4AR_jDW_5-6j9U?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_005.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场",
+      ": 允许带狗"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 1670,
+        "rentRangeLow": 1310,
+        "rentRangeHigh": 2020
+      },
+      {
+        "bedrooms": 1,
+        "rent": 1790,
+        "rentRangeLow": 1350,
+        "rentRangeHigh": 2240
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2680,
+        "rentRangeLow": 2200,
+        "rentRangeHigh": 3160
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3530,
+        "rentRangeLow": 2740,
+        "rentRangeHigh": 4320
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 57,
+      "subway_stations": 1,
+      "total_transit": 58,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 1,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 1,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 58,
+      "car_score": 10,
+      "car_friendly_rating": "fair"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 1120,
+      "by_category": {
+        "public_disorder": 1051,
+        "violent": 36,
+        "property": 33
+      },
+      "safety_score": "poor"
+    }
+  },
+  {
+    "building_id": "santa_clara_006",
+    "title": "Orchard Glen Apartments",
+    "address": "3975 Seven Trees Blvd, San Jose, CA 95111美国",
+    "lat": 37.280525,
+    "lon": -121.8325126,
+    "type": "公寓建筑",
+    "phone": "+1 408-629-3300",
+    "website": "https://www.liveatorchardglen.com/",
+    "review_rating": "2.9",
+    "review_count": "27",
+    "pricing": "$2,230 - $3,880",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/Orchard+Glen+Apartments/data=!4m7!3m6!1s0x808e3359dde0b04f:0xbb630a75f15e961d!8m2!3d37.280525!4d-121.8325126!16s%2Fg%2F11gxvs5byx!19sChIJT7Dg3VkzjoARHZZe8XUKY7s?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_006.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场",
+      ": 允许带狗"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2480,
+        "rentRangeLow": 2230,
+        "rentRangeHigh": 2730
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2590,
+        "rentRangeLow": 2490,
+        "rentRangeHigh": 2690
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3050,
+        "rentRangeLow": 2850,
+        "rentRangeHigh": 3250
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3610,
+        "rentRangeLow": 3340,
+        "rentRangeHigh": 3880
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 53,
+      "subway_stations": 0,
+      "total_transit": 53,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 3,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 3,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 53,
+      "car_score": 10,
+      "car_friendly_rating": "fair"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 1001,
+      "by_category": {
+        "property": 56,
+        "public_disorder": 906,
+        "violent": 39
+      },
+      "safety_score": "fair"
+    }
+  },
+  {
+    "building_id": "santa_clara_007",
+    "title": "Glenbrook Apartments",
+    "address": "130 Roundtable Dr, San Jose, CA 95111美国",
+    "lat": 37.2606864,
+    "lon": -121.8061793,
+    "type": "公寓建筑",
+    "phone": "+1 408-404-7063",
+    "website": "https://www.theglenbrookapartments.com/",
+    "review_rating": "4.3",
+    "review_count": "20",
+    "pricing": "$1,660 - $4,160",
+    "status": "星期四, 休息\n星期五, 休息\n星期六, 休息\n星期日, 休息\n星期一, 休息\n星期二, 09:30–17:00\n星期三, 09:30–17:00",
+    "google_map_url": "https://www.google.com/maps/place/Glenbrook+Apartments/data=!4m7!3m6!1s0x808e2fe0eb563c77:0x6a2123e0eb9da962!8m2!3d37.2606864!4d-121.8061793!16s%2Fg%2F11qr22tsvr!19sChIJdzxW6-AvjoARYqmd6-AjIWo?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_007.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2180,
+        "rentRangeLow": 1820,
+        "rentRangeHigh": 2540
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2050,
+        "rentRangeLow": 1660,
+        "rentRangeHigh": 2430
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2870,
+        "rentRangeLow": 2610,
+        "rentRangeHigh": 3130
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3640,
+        "rentRangeLow": 3110,
+        "rentRangeHigh": 4160
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 34,
+      "subway_stations": 0,
+      "total_transit": 34,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 3,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 3,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 34,
+      "car_score": 40,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 661,
+      "by_category": {
+        "public_disorder": 609,
+        "property": 36,
+        "violent": 16
+      },
+      "safety_score": "excellent"
+    }
+  },
+  {
+    "building_id": "santa_clara_008",
+    "title": "San Jose Apartments",
+    "address": "1500 Cunningham Ave, San Jose, CA 95122美国",
+    "lat": 37.3250327,
+    "lon": -121.8366029,
+    "type": "公寓建筑",
+    "phone": "+1 408-272-3311",
+    "website": "",
+    "review_rating": "3.9",
+    "review_count": "10",
+    "pricing": "$1,440 - $3,960",
+    "status": "星期四, 09:00–17:00\n星期五, 09:00–17:00\n星期六, 休息\n星期日, 休息\n星期一, 10:00–19:00\n星期二, 09:00–17:00\n星期三, 09:00–17:00",
+    "google_map_url": "https://www.google.com/maps/place/San+Jose+Apartments/data=!4m7!3m6!1s0x808e32c635429483:0xa0d4f9c4151feb51!8m2!3d37.3250327!4d-121.8366029!16s%2Fg%2F1tnct3q4!19sChIJg5RCNcYyjoARUesfFcT51KA?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_008.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 1870,
+        "rentRangeLow": 1440,
+        "rentRangeHigh": 2300
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2090,
+        "rentRangeLow": 1830,
+        "rentRangeHigh": 2350
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3020,
+        "rentRangeLow": 2720,
+        "rentRangeHigh": 3330
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3710,
+        "rentRangeLow": 3470,
+        "rentRangeHigh": 3960
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 47,
+      "subway_stations": 0,
+      "total_transit": 47,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 1,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 1,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 47,
+      "car_score": 20,
+      "car_friendly_rating": "good"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 1119,
+      "by_category": {
+        "public_disorder": 1020,
+        "violent": 49,
+        "property": 50
+      },
+      "safety_score": "poor"
+    }
+  },
+  {
+    "building_id": "santa_clara_009",
+    "title": "Pinewood Apartments",
+    "address": "2625 S King Rd, San Jose, CA 95122美国",
+    "lat": 37.317772,
+    "lon": -121.823256,
+    "type": "公寓建筑",
+    "phone": "+1 408-238-1471",
+    "website": "",
+    "review_rating": "3.2",
+    "review_count": "12",
+    "pricing": "$1,610 - $4,180",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/Pinewood+Apartments/data=!4m7!3m6!1s0x808e3297726cb219:0xdf4b4829ecdac4c8!8m2!3d37.317772!4d-121.823256!16s%2Fg%2F1tgfqbtf!19sChIJGbJscpcyjoARyMTa7ClIS98?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_009.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 1910,
+        "rentRangeLow": 1610,
+        "rentRangeHigh": 2210
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2080,
+        "rentRangeLow": 2010,
+        "rentRangeHigh": 2150
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3090,
+        "rentRangeLow": 2860,
+        "rentRangeHigh": 3310
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3870,
+        "rentRangeLow": 3560,
+        "rentRangeHigh": 4180
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 59,
+      "subway_stations": 0,
+      "total_transit": 59,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 4,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 4,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 59,
+      "car_score": 10,
+      "car_friendly_rating": "fair"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 1111,
+      "by_category": {
+        "public_disorder": 1005,
+        "violent": 38,
+        "property": 68
+      },
+      "safety_score": "poor"
+    }
+  },
+  {
+    "building_id": "santa_clara_010",
+    "title": "Courtyard Plaza",
+    "address": "2950 Story Rd #75, San Jose, CA 95127美国",
+    "lat": 37.3537104,
+    "lon": -121.8216252,
+    "type": "公寓建筑",
+    "phone": "+1 408-929-4221",
+    "website": "https://www.courtyardplazaapts.com/",
+    "review_rating": "3.4",
+    "review_count": "5",
+    "pricing": "$1,220 - $4,470",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/Courtyard+Plaza/data=!4m7!3m6!1s0x808fcd5b361faf19:0x557d82d891a04da0!8m2!3d37.3537104!4d-121.8216252!16s%2Fg%2F1trcgnv8!19sChIJGa8fNlvNj4ARoE2gkdiCfVU?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_010.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 1680,
+        "rentRangeLow": 1310,
+        "rentRangeHigh": 2060
+      },
+      {
+        "bedrooms": 1,
+        "rent": 1640,
+        "rentRangeLow": 1220,
+        "rentRangeHigh": 2060
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2660,
+        "rentRangeLow": 2150,
+        "rentRangeHigh": 3160
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3640,
+        "rentRangeLow": 2820,
+        "rentRangeHigh": 4470
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 64,
+      "subway_stations": 1,
+      "total_transit": 65,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 1,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 1,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 65,
+      "car_score": 10,
+      "car_friendly_rating": "fair"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 1166,
+      "by_category": {
+        "public_disorder": 1091,
+        "violent": 30,
+        "property": 45
+      },
+      "safety_score": "poor"
+    }
+  },
+  {
+    "building_id": "santa_clara_011",
+    "title": "Lion Villas Apartment Homes",
+    "address": "2550 S King Rd, San Jose, CA 95122美国",
+    "lat": 37.3204458,
+    "lon": -121.8228765,
+    "type": "公寓建筑",
+    "phone": "+1 408-274-7983",
+    "website": "",
+    "review_rating": "3.1",
+    "review_count": "21",
+    "pricing": "$1,620 - $4,180",
+    "status": "星期四, 08:00–17:00\n星期五, 08:00–17:00\n星期六, 休息\n星期日, 休息\n星期一, 08:00–17:00\n星期二, 08:00–17:00\n星期三, 08:00–17:00",
+    "google_map_url": "https://www.google.com/maps/place/Lion+Villas+Apartment+Homes/data=!4m7!3m6!1s0x808e3297e2d38b13:0xa87d226388be900b!8m2!3d37.3204458!4d-121.8228765!16s%2Fg%2F1thqg_0j!19sChIJE4vT4pcyjoARC5C-iGMifag?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_011.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场",
+      ": 允许带宠物"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 1930,
+        "rentRangeLow": 1620,
+        "rentRangeHigh": 2240
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2090,
+        "rentRangeLow": 2020,
+        "rentRangeHigh": 2160
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2970,
+        "rentRangeLow": 2540,
+        "rentRangeHigh": 3390
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3860,
+        "rentRangeLow": 3530,
+        "rentRangeHigh": 4180
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 56,
+      "subway_stations": 0,
+      "total_transit": 56,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 3,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 3,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 56,
+      "car_score": 10,
+      "car_friendly_rating": "fair"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 1028,
+      "by_category": {
+        "public_disorder": 938,
+        "violent": 32,
+        "property": 58
+      },
+      "safety_score": "fair"
+    }
+  },
+  {
+    "building_id": "santa_clara_012",
+    "title": "The Woods Apartments",
+    "address": "4300 The Woods Dr, San Jose, CA 95136美国",
+    "lat": 37.2757395,
+    "lon": -121.8382659,
+    "type": "房屋租赁公司",
+    "phone": "+1 844-927-4215",
+    "website": "https://www.woodsapartments.com/?rcstdid=Mg%3D%3D-YRjTEizZPgM%3D&utm_source=GMB&utm_medium=organic",
+    "review_rating": "3.0",
+    "review_count": "319",
+    "pricing": "$2,240 - $3,680",
+    "status": "星期四, 09:00–18:00\n星期五, 09:00–18:00\n星期六, 09:00–18:00\n星期日, 10:00–17:00\n星期一, 09:00–18:00\n星期二, 09:00–18:00\n星期三, 09:00–18:00",
+    "google_map_url": "https://www.google.com/maps/place/The+Woods+Apartments/data=!4m7!3m6!1s0x808e3238ba012915:0x33c006cb52e44107!8m2!3d37.2757395!4d-121.8382659!16s%2Fg%2F1262z1f4m!19sChIJFSkBujgyjoARB0HkUssGwDM?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_012.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场",
+      ": 允许带宠物"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2490,
+        "rentRangeLow": 2240,
+        "rentRangeHigh": 2740
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2600,
+        "rentRangeLow": 2500,
+        "rentRangeHigh": 2690
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3140,
+        "rentRangeLow": 3060,
+        "rentRangeHigh": 3220
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3610,
+        "rentRangeLow": 3540,
+        "rentRangeHigh": 3680
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 44,
+      "subway_stations": 0,
+      "total_transit": 44,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 5,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 5,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 44,
+      "car_score": 30,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 925,
+      "by_category": {
+        "public_disorder": 828,
+        "property": 52,
+        "violent": 45
+      },
+      "safety_score": "fair"
+    }
+  },
+  {
+    "building_id": "santa_clara_013",
+    "title": "Casa Real Apartments",
+    "address": "2580 Fontaine Rd, San Jose, CA 95121美国",
+    "lat": 37.3170018,
+    "lon": -121.828157,
+    "type": "公寓建筑",
+    "phone": "+1 408-238-0841",
+    "website": "https://www.eahhousing.org/apartments/casa-real/",
+    "review_rating": "2.4",
+    "review_count": "17",
+    "pricing": "$1,580 - $4,170",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/Casa+Real+Apartments/data=!4m7!3m6!1s0x808e329433909011:0x5400c0fb26333e35!8m2!3d37.3170018!4d-121.828157!16s%2Fg%2F1v3_2xw7!19sChIJEZCQM5QyjoARNT4zJvvAAFQ?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_013.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 1890,
+        "rentRangeLow": 1580,
+        "rentRangeHigh": 2210
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2080,
+        "rentRangeLow": 2000,
+        "rentRangeHigh": 2160
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3060,
+        "rentRangeLow": 2800,
+        "rentRangeHigh": 3320
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3860,
+        "rentRangeLow": 3550,
+        "rentRangeHigh": 4170
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 54,
+      "subway_stations": 0,
+      "total_transit": 54,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 3,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 3,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 54,
+      "car_score": 10,
+      "car_friendly_rating": "fair"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 1103,
+      "by_category": {
+        "public_disorder": 996,
+        "violent": 45,
+        "property": 62
+      },
+      "safety_score": "fair"
+    }
+  },
+  {
+    "building_id": "santa_clara_014",
+    "title": "ViO Apartments",
+    "address": "5700 Village Oaks Dr, San Jose, CA 95123美国",
+    "lat": 37.2471784,
+    "lon": -121.8017531,
+    "type": "公寓建筑",
+    "phone": "+1 669-587-2618",
+    "website": "https://www.essexapartmenthomes.com/apartments/san-jose/ViO?sc_camp=2648D1300BEC431BB11EB86F02F52DBD&utm_source=googlesearch",
+    "review_rating": "4.4",
+    "review_count": "142",
+    "pricing": "$1,710 - $4,490",
+    "status": "星期四, 09:00–18:00\n星期五, 09:00–18:00\n星期六, 09:00–18:00\n星期日, 休息\n星期一, 09:00–18:00\n星期二, 09:00–18:00\n星期三, 10:00–18:00",
+    "google_map_url": "https://www.google.com/maps/place/ViO+Apartments/data=!4m7!3m6!1s0x808e2e230563b0a9:0x8225b31266e89b6e!8m2!3d37.2471784!4d-121.8017531!16s%2Fg%2F11bvvxdx4d!19sChIJqbBjBSMujoARbpvoZhKzJYI?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_014.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场",
+      ": 允许带狗"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2150,
+        "rentRangeLow": 1770,
+        "rentRangeHigh": 2520
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2080,
+        "rentRangeLow": 1710,
+        "rentRangeHigh": 2450
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3420,
+        "rentRangeLow": 2960,
+        "rentRangeHigh": 3880
+      },
+      {
+        "bedrooms": 3,
+        "rent": 4070,
+        "rentRangeLow": 3650,
+        "rentRangeHigh": 4490
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 32,
+      "subway_stations": 1,
+      "total_transit": 33,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 6,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 6,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 33,
+      "car_score": 40,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 538,
+      "by_category": {
+        "public_disorder": 475,
+        "violent": 23,
+        "property": 40
+      },
+      "safety_score": "excellent"
+    }
+  },
+  {
+    "building_id": "santa_clara_015",
+    "title": "Oak Grove Apartments",
+    "address": "5568 Lexington Ave, San Jose, CA 95123美国",
+    "lat": 37.2514,
+    "lon": -121.7986088,
+    "type": "公寓建筑",
+    "phone": "+1 408-960-6295",
+    "website": "https://www.oakgroveaptliving.com/",
+    "review_rating": "3.9",
+    "review_count": "28",
+    "pricing": "$1,630 - $4,500",
+    "status": "星期四, 09:00–12:00\n星期五, 09:00–12:00\n星期六, 休息\n星期日, 休息\n星期一, 09:00–12:00\n星期二, 09:00–12:00\n星期三, 09:00–12:00",
+    "google_map_url": "https://www.google.com/maps/place/Oak+Grove+Apartments/data=!4m7!3m6!1s0x808e2e3d34f5ffe3:0x6071388955dbfdbc!8m2!3d37.2514!4d-121.7986088!16s%2Fg%2F11cp7f_5wt!19sChIJ4__1ND0ujoARvP3bVYk4cWA?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_015.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2240,
+        "rentRangeLow": 1880,
+        "rentRangeHigh": 2610
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2050,
+        "rentRangeLow": 1630,
+        "rentRangeHigh": 2480
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3310,
+        "rentRangeLow": 2880,
+        "rentRangeHigh": 3740
+      },
+      {
+        "bedrooms": 3,
+        "rent": 4050,
+        "rentRangeLow": 3600,
+        "rentRangeHigh": 4500
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 28,
+      "subway_stations": 1,
+      "total_transit": 29,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 3,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 3,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 29,
+      "car_score": 40,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 545,
+      "by_category": {
+        "public_disorder": 475,
+        "violent": 27,
+        "property": 43
+      },
+      "safety_score": "excellent"
+    }
+  },
+  {
+    "building_id": "santa_clara_016",
+    "title": "Valley Palms Apartments",
+    "address": "2245 Lanai Ave #175, San Jose, CA 95122美国",
+    "lat": 37.3222259,
+    "lon": -121.8327557,
+    "type": "公寓建筑",
+    "phone": "",
+    "website": "https://www.liveatvalleypalmsapts.com/",
+    "review_rating": "4.0",
+    "review_count": "1",
+    "pricing": "$1,560 - $4,020",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/Valley+Palms+Apartments/data=!4m7!3m6!1s0x808e33006b0e1799:0x637b3ed6b84cef51!8m2!3d37.3222259!4d-121.8327557!16s%2Fg%2F11y2wvw4pf!19sChIJmRcOawAzjoARUe9MuNY-e2M?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_016.jpg",
+    "amenities": [
+      ": 允许带宠物",
+      ": 允许带狗"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 1870,
+        "rentRangeLow": 1560,
+        "rentRangeHigh": 2180
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2120,
+        "rentRangeLow": 2040,
+        "rentRangeHigh": 2200
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3020,
+        "rentRangeLow": 2710,
+        "rentRangeHigh": 3320
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3770,
+        "rentRangeLow": 3530,
+        "rentRangeHigh": 4020
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 52,
+      "subway_stations": 0,
+      "total_transit": 52,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 1,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 1,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 52,
+      "car_score": 20,
+      "car_friendly_rating": "good"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 1167,
+      "by_category": {
+        "public_disorder": 1065,
+        "violent": 49,
+        "property": 53
+      },
+      "safety_score": "poor"
+    }
+  },
+  {
+    "building_id": "santa_clara_017",
+    "title": "Walnut Blossom Apartments",
+    "address": "5519 Walnut Blossom Dr, San Jose, CA 95123美国",
+    "lat": 37.2537399,
+    "lon": -121.8166394,
+    "type": "公寓建筑",
+    "phone": "",
+    "website": "",
+    "review_rating": "5.0",
+    "review_count": "6",
+    "pricing": "$1,660 - $4,060",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/Walnut+Blossom+Apartments/data=!4m7!3m6!1s0x808e31e373c25833:0x6203f9a9e92cded1!8m2!3d37.2537399!4d-121.8166394!16s%2Fg%2F11cm03wxn6!19sChIJM1jCc-MxjoAR0d4s6an5A2I?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_017.jpg",
+    "amenities": [],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2120,
+        "rentRangeLow": 1730,
+        "rentRangeHigh": 2510
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2010,
+        "rentRangeLow": 1660,
+        "rentRangeHigh": 2360
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2780,
+        "rentRangeLow": 2530,
+        "rentRangeHigh": 3030
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3540,
+        "rentRangeLow": 3020,
+        "rentRangeHigh": 4060
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 45,
+      "subway_stations": 1,
+      "total_transit": 46,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 2,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 2,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 46,
+      "car_score": 20,
+      "car_friendly_rating": "good"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 824,
+      "by_category": {
+        "public_disorder": 750,
+        "violent": 20,
+        "property": 54
+      },
+      "safety_score": "good"
+    }
+  },
+  {
+    "building_id": "santa_clara_018",
+    "title": "Monterey Manor Apartments",
+    "address": "5330 Monterey Rd, San Jose, CA 95111美国",
+    "lat": 37.2590103,
+    "lon": -121.8059616,
+    "type": "房屋租赁公司",
+    "phone": "+1 408-617-5785",
+    "website": "http://www.montereymanor.com/",
+    "review_rating": "3.4",
+    "review_count": "11",
+    "pricing": "$1,660 - $4,170",
+    "status": "星期四, 11:00–19:00\n星期五, 11:00–19:00\n星期六, 休息\n星期日, 休息\n星期一, 11:00–19:00\n星期二, 11:00–19:00\n星期三, 11:00–19:00",
+    "google_map_url": "https://www.google.com/maps/place/Monterey+Manor+Apartments/data=!4m7!3m6!1s0x808e2e03385fe1ab:0x11774a4ac21872b9!8m2!3d37.2590103!4d-121.8059616!16s%2Fg%2F1tdw_sd0!19sChIJq-FfOAMujoARuXIYwkpKdxE?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_018.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2180,
+        "rentRangeLow": 1820,
+        "rentRangeHigh": 2540
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2050,
+        "rentRangeLow": 1660,
+        "rentRangeHigh": 2430
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2870,
+        "rentRangeLow": 2610,
+        "rentRangeHigh": 3130
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3640,
+        "rentRangeLow": 3110,
+        "rentRangeHigh": 4170
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 34,
+      "subway_stations": 0,
+      "total_transit": 34,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 3,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 3,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 34,
+      "car_score": 40,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 657,
+      "by_category": {
+        "public_disorder": 598,
+        "property": 41,
+        "violent": 18
+      },
+      "safety_score": "excellent"
+    }
+  },
+  {
+    "building_id": "santa_clara_019",
+    "title": "Monterey Manor Apartments",
+    "address": "5330 Monterey Rd, San Jose, CA 95111美国",
+    "lat": 37.237758,
+    "lon": -121.771834,
+    "type": "房屋租赁公司",
+    "phone": "+1 408-617-5785",
+    "website": "http://www.montereymanor.com/",
+    "review_rating": "3.4",
+    "review_count": "11",
+    "pricing": "$1,880 - $4,290",
+    "status": "星期四, 11:00–19:00\n星期五, 11:00–19:00\n星期六, 休息\n星期日, 休息\n星期一, 11:00–19:00\n星期二, 11:00–19:00\n星期三, 11:00–19:00",
+    "google_map_url": "https://www.google.com/maps/place/Monterey+Grove+Apartments/data=!4m7!3m6!1s0x808e2fac881d721f:0x702ef30e2bf0890!8m2!3d37.237758!4d-121.771834!16s%2Fg%2F1tdd0xwt!19sChIJH3IdiKwvjoARkAi_4jDvAgc?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_019.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场",
+      ": 允许带宠物",
+      ": 允许带狗"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2370,
+        "rentRangeLow": 2060,
+        "rentRangeHigh": 2680
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2290,
+        "rentRangeLow": 1880,
+        "rentRangeHigh": 2700
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3290,
+        "rentRangeLow": 2930,
+        "rentRangeHigh": 3650
+      },
+      {
+        "bedrooms": 3,
+        "rent": 4010,
+        "rentRangeLow": 3740,
+        "rentRangeHigh": 4290
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 23,
+      "subway_stations": 1,
+      "total_transit": 24,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 1,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 1,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 24,
+      "car_score": 40,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 298,
+      "by_category": {
+        "public_disorder": 255,
+        "property": 29,
+        "violent": 14
+      },
+      "safety_score": "excellent"
+    }
+  },
+  {
+    "building_id": "santa_clara_020",
+    "title": "Monterey Grove Apartments",
+    "address": "6100 Monterey Rd, San Jose, CA 95138美国",
+    "lat": 37.2521964,
+    "lon": -121.7999371,
+    "type": "公寓建筑",
+    "phone": "+1 707-801-0232",
+    "website": "https://www.montereygrove.com/?utm_source=google-locallisting&utm_medium=organic&utm_campaign=gmb",
+    "review_rating": "4.3",
+    "review_count": "214",
+    "pricing": "$1,630 - $4,500",
+    "status": "已打烊 ⋅ 开始营业时间：10:00·查看更多营业时间",
+    "google_map_url": "https://www.google.com/maps/place/The+Lex+Apartments/data=!4m7!3m6!1s0x808e2e22b458bd1f:0x8fb57f7000f7fd7b!8m2!3d37.2521964!4d-121.7999371!16s%2Fg%2F11bxjs2cg7!19sChIJH71YtCIujoARe_33AHB_tY8?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_020.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场",
+      ": 允许带宠物",
+      ": 允许带狗"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2280,
+        "rentRangeLow": 2020,
+        "rentRangeHigh": 2540
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2050,
+        "rentRangeLow": 1630,
+        "rentRangeHigh": 2480
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3240,
+        "rentRangeLow": 2820,
+        "rentRangeHigh": 3660
+      },
+      {
+        "bedrooms": 3,
+        "rent": 4050,
+        "rentRangeLow": 3600,
+        "rentRangeHigh": 4500
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 26,
+      "subway_stations": 1,
+      "total_transit": 27,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 4,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 4,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 27,
+      "car_score": 40,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 586,
+      "by_category": {
+        "public_disorder": 515,
+        "violent": 28,
+        "property": 43
+      },
+      "safety_score": "excellent"
+    }
+  },
+  {
+    "building_id": "santa_clara_021",
+    "title": "The Lex Apartments",
+    "address": "5560 Lexington Ave, San Jose, CA 95123美国",
+    "lat": 37.2740629,
+    "lon": -121.8372879,
+    "type": "房屋租赁公司",
+    "phone": "+1 669-900-1489",
+    "website": "https://www.equityapartments.com/san-francisco-bay/san-jose/the-lex-apartments",
+    "review_rating": "4.1",
+    "review_count": "270",
+    "pricing": "$2,240 - $3,680",
+    "status": "星期四, 10:00–18:00\n星期五, 10:00–18:00\n星期六, 09:00–17:00\n星期日, 休息\n星期一, 休息\n星期二, 10:00–18:00\n星期三, 10:00–18:00",
+    "google_map_url": "https://www.google.com/maps/place/Edenwood+Building+17/data=!4m7!3m6!1s0x808e3377bd8d805f:0x5dc0b2c45a386120!8m2!3d37.2740629!4d-121.8372879!16s%2Fg%2F11jpxc0tvx!19sChIJX4CNvXczjoARIGE4WsSywF0?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_021.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2490,
+        "rentRangeLow": 2240,
+        "rentRangeHigh": 2740
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2600,
+        "rentRangeLow": 2500,
+        "rentRangeHigh": 2690
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3140,
+        "rentRangeLow": 3060,
+        "rentRangeHigh": 3220
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3620,
+        "rentRangeLow": 3560,
+        "rentRangeHigh": 3680
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 46,
+      "subway_stations": 0,
+      "total_transit": 46,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 5,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 5,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 46,
+      "car_score": 20,
+      "car_friendly_rating": "good"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 903,
+      "by_category": {
+        "public_disorder": 812,
+        "property": 52,
+        "violent": 39
+      },
+      "safety_score": "good"
+    }
+  },
+  {
+    "building_id": "santa_clara_022",
+    "title": "Edenwood Building 17",
+    "address": "San Jose, CA 95136美国",
+    "lat": 37.2455601,
+    "lon": -121.8021413,
+    "type": "公寓建筑",
+    "phone": "",
+    "website": "",
+    "review_rating": "5.0",
+    "review_count": "1",
+    "pricing": "$1,730 - $4,490",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/Ascent+Apartments/data=!4m7!3m6!1s0x808e2e247e54b965:0xfa427c4b0d208147!8m2!3d37.2455601!4d-121.8021413!16s%2Fg%2F11b6xj6h5j!19sChIJZblUfiQujoARR4EgDUt8Qvo?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_022.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场",
+      ": 允许带宠物",
+      ": 允许带狗"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2140,
+        "rentRangeLow": 1770,
+        "rentRangeHigh": 2520
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2120,
+        "rentRangeLow": 1730,
+        "rentRangeHigh": 2520
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3430,
+        "rentRangeLow": 2980,
+        "rentRangeHigh": 3870
+      },
+      {
+        "bedrooms": 3,
+        "rent": 4070,
+        "rentRangeLow": 3650,
+        "rentRangeHigh": 4490
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 30,
+      "subway_stations": 2,
+      "total_transit": 32,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 6,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 6,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 32,
+      "car_score": 40,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 496,
+      "by_category": {
+        "public_disorder": 437,
+        "violent": 20,
+        "property": 39
+      },
+      "safety_score": "excellent"
+    }
+  },
+  {
+    "building_id": "santa_clara_023",
+    "title": "Ascent Apartments",
+    "address": "5805 Charlotte Dr, San Jose, CA 95123美国",
+    "lat": 37.3619404,
+    "lon": -121.8442073,
+    "type": "公寓建筑",
+    "phone": "+1 844-230-8390",
+    "website": "https://www.sheaapartments.com/apartments/ascent/?utm_source=gmb&utm_medium=organic&utm_campaign=ascent",
+    "review_rating": "4.4",
+    "review_count": "461",
+    "pricing": "$1,720 - $3,720",
+    "status": "星期四, 10:00–18:00\n星期五, 10:00–18:00\n星期六, 09:00–18:00\n星期日, 11:00–17:00\n星期一, 10:00–18:00\n星期二, 10:00–18:00\n星期三, 10:00–18:00",
+    "google_map_url": "https://www.google.com/maps/place/Aviara+Apartments/data=!4m7!3m6!1s0x808fcd10041d7805:0xf785fdf4398cda5e!8m2!3d37.3619404!4d-121.8442073!16s%2Fg%2F12cp2mj86!19sChIJBXgdBBDNj4ARXtqMOfT9hfc?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_023.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场",
+      ": 允许带宠物",
+      ": 允许带狗"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2020,
+        "rentRangeLow": 1720,
+        "rentRangeHigh": 2320
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2050,
+        "rentRangeLow": 1780,
+        "rentRangeHigh": 2330
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2720,
+        "rentRangeLow": 2510,
+        "rentRangeHigh": 2930
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3210,
+        "rentRangeLow": 2700,
+        "rentRangeHigh": 3720
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 78,
+      "subway_stations": 2,
+      "total_transit": 80,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 3,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 3,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 80,
+      "car_score": 10,
+      "car_friendly_rating": "fair"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 1539,
+      "by_category": {
+        "property": 90,
+        "public_disorder": 1388,
+        "violent": 61
+      },
+      "safety_score": "poor"
+    }
+  },
+  {
+    "building_id": "santa_clara_024",
+    "title": "Nancy Lane Apartments",
+    "address": "143 Nancy Ln #1, San Jose, CA 95127美国",
+    "lat": 37.3618951,
+    "lon": -121.8305958,
+    "type": "公寓建筑",
+    "phone": "+1 408-923-1548",
+    "website": "",
+    "review_rating": "2.2",
+    "review_count": "9",
+    "pricing": "$1,550 - $3,890",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/Nancy+Lane+Apartments/data=!4m7!3m6!1s0x808fcd6c8076f7dd:0xa97c73851219e3f1!8m2!3d37.3618951!4d-121.8305958!16s%2Fg%2F1tr9nnjt!19sChIJ3fd2gGzNj4AR8eMZEoVzfKk?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_024.jpg",
+    "amenities": [],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 1980,
+        "rentRangeLow": 1550,
+        "rentRangeHigh": 2410
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2010,
+        "rentRangeLow": 1600,
+        "rentRangeHigh": 2410
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2730,
+        "rentRangeLow": 2270,
+        "rentRangeHigh": 3180
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3280,
+        "rentRangeLow": 2670,
+        "rentRangeHigh": 3890
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 68,
+      "subway_stations": 1,
+      "total_transit": 69,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 1,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 1,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 69,
+      "car_score": 10,
+      "car_friendly_rating": "fair"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 1200,
+      "by_category": {
+        "public_disorder": 1089,
+        "property": 77,
+        "violent": 34
+      },
+      "safety_score": "poor"
+    }
+  },
+  {
+    "building_id": "santa_clara_025",
+    "title": "Nancy Lane Apartments",
+    "address": "143 Nancy Ln #1, San Jose, CA 95127美国",
+    "lat": 37.2782024,
+    "lon": -121.8388681,
+    "type": "公寓建筑",
+    "phone": "+1 408-923-1548",
+    "website": "",
+    "review_rating": "2.2",
+    "review_count": "9",
+    "pricing": "$2,240 - $3,680",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/Brentwood+Building+1/data=!4m7!3m6!1s0x808e33f522154241:0x44e4d1be3467b15e!8m2!3d37.2782024!4d-121.8388681!16s%2Fg%2F11jn_n3_pl!19sChIJQUIVIvUzjoARXrFnNL7R5EQ?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_025.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2490,
+        "rentRangeLow": 2240,
+        "rentRangeHigh": 2740
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2600,
+        "rentRangeLow": 2500,
+        "rentRangeHigh": 2690
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3050,
+        "rentRangeLow": 2860,
+        "rentRangeHigh": 3240
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3620,
+        "rentRangeLow": 3560,
+        "rentRangeHigh": 3680
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 49,
+      "subway_stations": 0,
+      "total_transit": 49,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 5,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 5,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 49,
+      "car_score": 20,
+      "car_friendly_rating": "good"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 990,
+      "by_category": {
+        "public_disorder": 889,
+        "property": 55,
+        "violent": 46
+      },
+      "safety_score": "fair"
+    }
+  },
+  {
+    "building_id": "santa_clara_026",
+    "title": "Brentwood Building 1",
+    "address": "4200 The Woods Dr Brentwood 510, San Jose, CA 95136美国",
+    "lat": 37.3315479,
+    "lon": -121.8483644,
+    "type": "公寓建筑",
+    "phone": "",
+    "website": "",
+    "review_rating": "5.0",
+    "review_count": "1",
+    "pricing": "$1,480 - $3,980",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/Monte+Alban+Apartments/data=!4m7!3m6!1s0x808e32d2d9e8759b:0x3d92b50cac7f7342!8m2!3d37.3315479!4d-121.8483644!16s%2Fg%2F1tnmrz88!19sChIJm3Xo2dIyjoARQnN_rAy1kj0?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_026.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 1700,
+        "rentRangeLow": 1480,
+        "rentRangeHigh": 1920
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2060,
+        "rentRangeLow": 1580,
+        "rentRangeHigh": 2530
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2990,
+        "rentRangeLow": 2630,
+        "rentRangeHigh": 3350
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3620,
+        "rentRangeLow": 3260,
+        "rentRangeHigh": 3980
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 43,
+      "subway_stations": 0,
+      "total_transit": 43,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 3,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 3,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 43,
+      "car_score": 30,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 1091,
+      "by_category": {
+        "public_disorder": 993,
+        "violent": 52,
+        "property": 46
+      },
+      "safety_score": "fair"
+    }
+  },
+  {
+    "building_id": "santa_clara_027",
+    "title": "Brentwood Building 1",
+    "address": "4200 The Woods Dr Brentwood 510, San Jose, CA 95136美国",
+    "lat": 37.2685185,
+    "lon": -121.8356666,
+    "type": "公寓建筑",
+    "phone": "",
+    "website": "",
+    "review_rating": "5.0",
+    "review_count": "1",
+    "pricing": "$2,240 - $3,730",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/Terra+House+Apartments/data=!4m7!3m6!1s0x808e3222ea40a18d:0xf325d874d4ae5ce3!8m2!3d37.2685185!4d-121.8356666!16s%2Fg%2F1tddb238!19sChIJjaFA6iIyjoAR41yu1HTYJfM?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_027.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场",
+      ": 允许带宠物",
+      ": 允许带狗"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2490,
+        "rentRangeLow": 2240,
+        "rentRangeHigh": 2740
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2600,
+        "rentRangeLow": 2510,
+        "rentRangeHigh": 2690
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3170,
+        "rentRangeLow": 3060,
+        "rentRangeHigh": 3270
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3640,
+        "rentRangeLow": 3550,
+        "rentRangeHigh": 3730
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 37,
+      "subway_stations": 0,
+      "total_transit": 37,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 3,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 3,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 37,
+      "car_score": 40,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 735,
+      "by_category": {
+        "public_disorder": 661,
+        "property": 41,
+        "violent": 33
+      },
+      "safety_score": "good"
+    }
+  },
+  {
+    "building_id": "santa_clara_028",
+    "title": "Brentwood Building 1",
+    "address": "4200 The Woods Dr Brentwood 510, San Jose, CA 95136美国",
+    "lat": 37.2433879,
+    "lon": -121.8004512,
+    "type": "公寓建筑",
+    "phone": "",
+    "website": "",
+    "review_rating": "5.0",
+    "review_count": "1",
+    "pricing": "$1,760 - $4,440",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/Charlotte+Park/data=!4m7!3m6!1s0x808e2e24df1f112b:0xa64320a5419ef354!8m2!3d37.2433879!4d-121.8004512!16s%2Fg%2F11c2pmx2tj!19sChIJKxEf3yQujoARVPOeQaUgQ6Y?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_028.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2200,
+        "rentRangeLow": 1810,
+        "rentRangeHigh": 2590
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2180,
+        "rentRangeLow": 1760,
+        "rentRangeHigh": 2590
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3470,
+        "rentRangeLow": 3080,
+        "rentRangeHigh": 3870
+      },
+      {
+        "bedrooms": 3,
+        "rent": 4100,
+        "rentRangeLow": 3760,
+        "rentRangeHigh": 4440
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 29,
+      "subway_stations": 2,
+      "total_transit": 31,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 5,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 5,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 31,
+      "car_score": 40,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 464,
+      "by_category": {
+        "public_disorder": 406,
+        "violent": 20,
+        "property": 38
+      },
+      "safety_score": "excellent"
+    }
+  },
+  {
+    "building_id": "santa_clara_029",
+    "title": "Brentwood Building 1",
+    "address": "4200 The Woods Dr Brentwood 510, San Jose, CA 95136美国",
+    "lat": 37.2568775,
+    "lon": -121.8304245,
+    "type": "公寓建筑",
+    "phone": "",
+    "website": "",
+    "review_rating": "5.0",
+    "review_count": "1",
+    "pricing": "$1,690 - $4,000",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/Verde+Apartments/data=!4m7!3m6!1s0x808e31f40d63a4c7:0xf1cb5ac563d48d4b!8m2!3d37.2568775!4d-121.8304245!16s%2Fg%2F1td6gqcf!19sChIJx6RjDfQxjoARS43UY8Vay_E?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_029.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场",
+      ": 允许带宠物",
+      ": 允许带狗"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2020,
+        "rentRangeLow": 1690,
+        "rentRangeHigh": 2350
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2090,
+        "rentRangeLow": 1700,
+        "rentRangeHigh": 2480
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2820,
+        "rentRangeLow": 2500,
+        "rentRangeHigh": 3150
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3590,
+        "rentRangeLow": 3170,
+        "rentRangeHigh": 4000
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 39,
+      "subway_stations": 2,
+      "total_transit": 41,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 2,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 2,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 41,
+      "car_score": 30,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 712,
+      "by_category": {
+        "public_disorder": 658,
+        "violent": 20,
+        "property": 34
+      },
+      "safety_score": "excellent"
+    }
+  },
+  {
+    "building_id": "santa_clara_030",
+    "title": "Verde Apartments",
+    "address": "5322 Wong Ct, San Jose, CA 95123美国",
+    "lat": 37.2755031,
+    "lon": -121.8347131,
+    "type": "房屋租赁公司",
+    "phone": "+1 408-578-2520",
+    "website": "http://www.equityapartments.com/san-francisco-bay/san-jose/verde-apartments",
+    "review_rating": "4.0",
+    "review_count": "93",
+    "pricing": "$2,240 - $3,730",
+    "status": "星期四, 10:00–18:00\n星期五, 10:00–18:00\n星期六, 10:00–17:00\n星期日, 休息\n星期一, 休息\n星期二, 10:00–18:00\n星期三, 10:00–18:00",
+    "google_map_url": "https://www.google.com/maps/place/Foxwood+building+12/data=!4m7!3m6!1s0x808e33498d368367:0x707bdd873e8e373a!8m2!3d37.2755031!4d-121.8347131!16s%2Fg%2F11h8v_bjpr!19sChIJZ4M2jUkzjoAROjeOPofde3A?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_030.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2490,
+        "rentRangeLow": 2240,
+        "rentRangeHigh": 2740
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2600,
+        "rentRangeLow": 2500,
+        "rentRangeHigh": 2690
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3060,
+        "rentRangeLow": 2870,
+        "rentRangeHigh": 3250
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3640,
+        "rentRangeLow": 3550,
+        "rentRangeHigh": 3730
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 48,
+      "subway_stations": 0,
+      "total_transit": 48,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 3,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 3,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 48,
+      "car_score": 20,
+      "car_friendly_rating": "good"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 929,
+      "by_category": {
+        "public_disorder": 837,
+        "property": 49,
+        "violent": 43
+      },
+      "safety_score": "fair"
+    }
+  },
+  {
+    "building_id": "santa_clara_031",
+    "title": "Verde Apartments",
+    "address": "5322 Wong Ct, San Jose, CA 95123美国",
+    "lat": 37.2558793,
+    "lon": -121.8156035,
+    "type": "房屋租赁公司",
+    "phone": "+1 408-578-2520",
+    "website": "http://www.equityapartments.com/san-francisco-bay/san-jose/verde-apartments",
+    "review_rating": "4.0",
+    "review_count": "93",
+    "pricing": "$1,670 - $4,010",
+    "status": "星期四, 10:00–18:00\n星期五, 10:00–18:00\n星期六, 10:00–17:00\n星期日, 休息\n星期一, 休息\n星期二, 10:00–18:00\n星期三, 10:00–18:00",
+    "google_map_url": "https://www.google.com/maps/place/Orchard+Park+Apartments/data=!4m7!3m6!1s0x808e31e355490b1d:0x579097e0f445de1f!8m2!3d37.2558793!4d-121.8156035!16s%2Fg%2F1tfj3d3v!19sChIJHQtJVeMxjoARH95F9OCXkFc?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_031.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2090,
+        "rentRangeLow": 1700,
+        "rentRangeHigh": 2490
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2020,
+        "rentRangeLow": 1670,
+        "rentRangeHigh": 2370
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2770,
+        "rentRangeLow": 2540,
+        "rentRangeHigh": 2990
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3520,
+        "rentRangeLow": 3030,
+        "rentRangeHigh": 4010
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 52,
+      "subway_stations": 1,
+      "total_transit": 53,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 2,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 2,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 53,
+      "car_score": 10,
+      "car_friendly_rating": "fair"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 911,
+      "by_category": {
+        "public_disorder": 836,
+        "violent": 25,
+        "property": 50
+      },
+      "safety_score": "fair"
+    }
+  },
+  {
+    "building_id": "santa_clara_032",
+    "title": "Orchard Park Apartments",
+    "address": "5635 Blossom Gardens Cir, San Jose, CA 95123美国",
+    "lat": 37.2917384,
+    "lon": -121.8518395,
+    "type": "公寓建筑",
+    "phone": "+1 877-526-3611",
+    "website": "",
+    "review_rating": "2.6",
+    "review_count": "18",
+    "pricing": "$1,520 - $5,140",
+    "status": "星期四, 08:00–17:00\n星期五, 08:00–17:00\n星期六, 休息\n星期日, 休息\n星期一, 08:00–17:00\n星期二, 08:00–17:00\n星期三, 08:00–17:00",
+    "google_map_url": "https://www.google.com/maps/place/Orvieto+Apartments/data=!4m7!3m6!1s0x808e3255bf702741:0xcae10e84a4ea0db5!8m2!3d37.2917384!4d-121.8518395!16s%2Fg%2F1q5gp2f0j!19sChIJQSdwv1UyjoARtQ3qpIQO4co?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_032.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2080,
+        "rentRangeLow": 1520,
+        "rentRangeHigh": 2650
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2310,
+        "rentRangeLow": 1790,
+        "rentRangeHigh": 2830
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3480,
+        "rentRangeLow": 2970,
+        "rentRangeHigh": 4000
+      },
+      {
+        "bedrooms": 3,
+        "rent": 4390,
+        "rentRangeLow": 3640,
+        "rentRangeHigh": 5140
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 38,
+      "subway_stations": 0,
+      "total_transit": 38,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 2,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 2,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 38,
+      "car_score": 30,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 716,
+      "by_category": {
+        "public_disorder": 619,
+        "violent": 30,
+        "property": 67
+      },
+      "safety_score": "excellent"
+    }
+  },
+  {
+    "building_id": "santa_clara_033",
+    "title": "Orvieto Apartments",
+    "address": "80 Montecito Vista Dr, San Jose, CA 95111美国",
+    "lat": 37.258289,
+    "lon": -121.8030083,
+    "type": "公寓建筑",
+    "phone": "+1 408-224-5609",
+    "website": "http://www.roemcorp.com/projects/orvieto-family-apartments/",
+    "review_rating": "4.5",
+    "review_count": "13",
+    "pricing": "$1,770 - $4,200",
+    "status": "星期四, 09:00–17:00\n星期五, 09:00–17:00\n星期六, 休息\n星期日, 休息\n星期一, 09:00–17:00\n星期二, 09:00–17:00\n星期三, 09:00–17:00",
+    "google_map_url": "https://www.google.com/maps/place/Eden+palms/data=!4m7!3m6!1s0x808e2f13e7bbdc1f:0x3104ce568699c2ca!8m2!3d37.258289!4d-121.8030083!16s%2Fg%2F11mw7p8jdw!19sChIJH9y75xMvjoARysKZhlbOBDE?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_033.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2180,
+        "rentRangeLow": 1830,
+        "rentRangeHigh": 2530
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2150,
+        "rentRangeLow": 1770,
+        "rentRangeHigh": 2520
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2930,
+        "rentRangeLow": 2590,
+        "rentRangeHigh": 3260
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3660,
+        "rentRangeLow": 3130,
+        "rentRangeHigh": 4200
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 32,
+      "subway_stations": 0,
+      "total_transit": 32,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 3,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 3,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 32,
+      "car_score": 40,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 652,
+      "by_category": {
+        "public_disorder": 594,
+        "violent": 19,
+        "property": 39
+      },
+      "safety_score": "excellent"
+    }
+  },
+  {
+    "building_id": "santa_clara_034",
+    "title": "Eden palms",
+    "address": "5378 Monterey Rd, San Jose, CA 95111美国",
+    "lat": 37.3567476,
+    "lon": -121.8461037,
+    "type": "公寓建筑",
+    "phone": "",
+    "website": "https://edenhousing.org/properties/eden-palms/",
+    "review_rating": "1.0",
+    "review_count": "1",
+    "pricing": "$1,580 - $3,470",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/Villa+de+Guadalupe/data=!4m7!3m6!1s0x808fcd19e8a3d3b3:0x90dfa54a1341ecf9!8m2!3d37.3567476!4d-121.8461037!16s%2Fg%2F1wfcpcsn!19sChIJs9Oj6BnNj4AR-exBE0ql35A?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_034.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场",
+      ": 允许带宠物",
+      ": 允许带狗"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 1970,
+        "rentRangeLow": 1580,
+        "rentRangeHigh": 2370
+      },
+      {
+        "bedrooms": 1,
+        "rent": 1980,
+        "rentRangeLow": 1640,
+        "rentRangeHigh": 2320
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2770,
+        "rentRangeLow": 2550,
+        "rentRangeHigh": 2990
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3060,
+        "rentRangeLow": 2640,
+        "rentRangeHigh": 3470
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 75,
+      "subway_stations": 1,
+      "total_transit": 76,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 5,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 5,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 76,
+      "car_score": 10,
+      "car_friendly_rating": "fair"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 1762,
+      "by_category": {
+        "property": 84,
+        "public_disorder": 1610,
+        "violent": 68
+      },
+      "safety_score": "poor"
+    }
+  },
+  {
+    "building_id": "santa_clara_035",
+    "title": "Eden palms",
+    "address": "5378 Monterey Rd, San Jose, CA 95111美国",
+    "lat": 37.3430213,
+    "lon": -121.8396377,
+    "type": "公寓建筑",
+    "phone": "",
+    "website": "https://edenhousing.org/properties/eden-palms/",
+    "review_rating": "1.0",
+    "review_count": "1",
+    "pricing": "$1,440 - $3,560",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/Poco+Way+Apartments/data=!4m7!3m6!1s0x808fcd30c9c63761:0x1e341d892f785273!8m2!3d37.3430213!4d-121.8396377!16s%2Fg%2F11bt_7fgc8!19sChIJYTfGyTDNj4ARc1J4L4kdNB4?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_035.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 1720,
+        "rentRangeLow": 1440,
+        "rentRangeHigh": 2000
+      },
+      {
+        "bedrooms": 1,
+        "rent": 1700,
+        "rentRangeLow": 1460,
+        "rentRangeHigh": 1940
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2800,
+        "rentRangeLow": 2490,
+        "rentRangeHigh": 3120
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3130,
+        "rentRangeLow": 2710,
+        "rentRangeHigh": 3560
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 47,
+      "subway_stations": 0,
+      "total_transit": 47,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 2,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 2,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 47,
+      "car_score": 20,
+      "car_friendly_rating": "good"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 1281,
+      "by_category": {
+        "public_disorder": 1181,
+        "violent": 48,
+        "property": 52
+      },
+      "safety_score": "poor"
+    }
+  },
+  {
+    "building_id": "santa_clara_036",
+    "title": "Poco Way Apartments",
+    "address": "1900 Poco Way, San Jose, CA 95116美国",
+    "lat": 37.3181494,
+    "lon": -121.8425722,
+    "type": "公寓建筑",
+    "phone": "+1 408-923-2099",
+    "website": "",
+    "review_rating": "4.0",
+    "review_count": "6",
+    "pricing": "$1,440 - $4,020",
+    "status": "星期四, 09:00–12:00\n星期五, 09:00–12:00\n星期六, 休息\n星期日, 休息\n星期一, 09:00–12:00\n星期二, 09:00–12:00\n星期三, 09:00–12:00",
+    "google_map_url": "https://www.google.com/maps/place/Summerwind+Apartments/data=!4m7!3m6!1s0x808e32c30faec00b:0x57e7db6183269e67!8m2!3d37.3181494!4d-121.8425722!16s%2Fg%2F1tf7bb3r!19sChIJC8CuD8MyjoARZ54mg2Hb51c?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_036.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 1850,
+        "rentRangeLow": 1440,
+        "rentRangeHigh": 2270
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2140,
+        "rentRangeLow": 1860,
+        "rentRangeHigh": 2420
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3020,
+        "rentRangeLow": 2710,
+        "rentRangeHigh": 3320
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3750,
+        "rentRangeLow": 3490,
+        "rentRangeHigh": 4020
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 52,
+      "subway_stations": 0,
+      "total_transit": 52,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 2,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 2,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 52,
+      "car_score": 20,
+      "car_friendly_rating": "good"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 1118,
+      "by_category": {
+        "public_disorder": 1012,
+        "property": 57,
+        "violent": 49
+      },
+      "safety_score": "poor"
+    }
+  },
+  {
+    "building_id": "santa_clara_037",
+    "title": "Summerwind Apartments",
+    "address": "2055 Summerside Dr, San Jose, CA 95122美国",
+    "lat": 37.2961233,
+    "lon": -121.8436291,
+    "type": "公寓建筑",
+    "phone": "+1 408-279-2300",
+    "website": "",
+    "review_rating": "2.2",
+    "review_count": "45",
+    "pricing": "$1,550 - $5,020",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/Villa+Monterey/data=!4m7!3m6!1s0x808e32f7e8f481eb:0xc0c38a42baeeb2ab!8m2!3d37.2961233!4d-121.8436291!16s%2Fg%2F1tjkg0gx!19sChIJ64H06PcyjoARq7LuukKKw8A?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_037.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2170,
+        "rentRangeLow": 1550,
+        "rentRangeHigh": 2790
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2280,
+        "rentRangeLow": 1740,
+        "rentRangeHigh": 2830
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3260,
+        "rentRangeLow": 2680,
+        "rentRangeHigh": 3830
+      },
+      {
+        "bedrooms": 3,
+        "rent": 4150,
+        "rentRangeLow": 3290,
+        "rentRangeHigh": 5020
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 42,
+      "subway_stations": 0,
+      "total_transit": 42,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 2,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 2,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 42,
+      "car_score": 30,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 802,
+      "by_category": {
+        "public_disorder": 711,
+        "violent": 31,
+        "property": 60
+      },
+      "safety_score": "good"
+    }
+  },
+  {
+    "building_id": "santa_clara_038",
+    "title": "Villa Monterey",
+    "address": "2898 Villa Monterey, San Jose, CA 95111美国",
+    "lat": 37.2774562,
+    "lon": -121.8358667,
+    "type": "公寓建筑",
+    "phone": "+1 408-365-9200",
+    "website": "https://www.eahhousing.org/apartments/villa-monterey/",
+    "review_rating": "4.6",
+    "review_count": "7",
+    "pricing": "$2,240 - $3,680",
+    "status": "星期四, 09:00–17:00\n星期五, 09:00–17:00\n星期六, 休息\n星期日, 休息\n星期一, 09:00–17:00\n星期二, 09:00–17:00\n星期三, 09:00–17:00",
+    "google_map_url": "https://www.google.com/maps/place/Cedarwood+Building+4/data=!4m7!3m6!1s0x808e33c7599f10c5:0xc00ecd85bd4f9257!8m2!3d37.2774562!4d-121.8358667!16s%2Fg%2F11jcl9grdk!19sChIJxRCfWcczjoARV5JPvYXNDsA?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_038.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2490,
+        "rentRangeLow": 2240,
+        "rentRangeHigh": 2740
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2600,
+        "rentRangeLow": 2510,
+        "rentRangeHigh": 2690
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3060,
+        "rentRangeLow": 2870,
+        "rentRangeHigh": 3250
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3620,
+        "rentRangeLow": 3560,
+        "rentRangeHigh": 3680
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 49,
+      "subway_stations": 0,
+      "total_transit": 49,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 4,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 4,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 49,
+      "car_score": 20,
+      "car_friendly_rating": "good"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 980,
+      "by_category": {
+        "public_disorder": 881,
+        "property": 54,
+        "violent": 45
+      },
+      "safety_score": "fair"
+    }
+  },
+  {
+    "building_id": "santa_clara_039",
+    "title": "Villa Monterey",
+    "address": "2898 Villa Monterey, San Jose, CA 95111美国",
+    "lat": 37.2518717,
+    "lon": -121.8152915,
+    "type": "公寓小区",
+    "phone": "+1 408-365-9200",
+    "website": "https://www.eahhousing.org/apartments/villa-monterey/",
+    "review_rating": "4.6",
+    "review_count": "7",
+    "pricing": "$1,620 - $4,080",
+    "status": "星期四, 09:00–17:00\n星期五, 09:00–17:00\n星期六, 休息\n星期日, 休息\n星期一, 09:00–17:00\n星期二, 09:00–17:00\n星期三, 09:00–17:00",
+    "google_map_url": "https://www.google.com/maps/place/Blossom+Oaks+Apartments/data=!4m7!3m6!1s0x808e31e39b0ef5cb:0xfdd616296519fa4b!8m2!3d37.2518717!4d-121.8152915!16s%2Fg%2F1tdz51j6!19sChIJy_UOm-MxjoARS_oZZSkW1v0?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_039.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2110,
+        "rentRangeLow": 1710,
+        "rentRangeHigh": 2520
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2060,
+        "rentRangeLow": 1620,
+        "rentRangeHigh": 2510
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2790,
+        "rentRangeLow": 2520,
+        "rentRangeHigh": 3060
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3560,
+        "rentRangeLow": 3040,
+        "rentRangeHigh": 4080
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 42,
+      "subway_stations": 2,
+      "total_transit": 44,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 2,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 2,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 44,
+      "car_score": 30,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 835,
+      "by_category": {
+        "public_disorder": 760,
+        "violent": 21,
+        "property": 54
+      },
+      "safety_score": "good"
+    }
+  },
+  {
+    "building_id": "santa_clara_040",
+    "title": "Villa Monterey",
+    "address": "2898 Villa Monterey, San Jose, CA 95111美国",
+    "lat": 37.3728904,
+    "lon": -121.8399593,
+    "type": "公寓小区",
+    "phone": "+1 408-365-9200",
+    "website": "https://www.eahhousing.org/apartments/villa-monterey/",
+    "review_rating": "4.6",
+    "review_count": "7",
+    "pricing": "$1,850 - $4,260",
+    "status": "星期四, 09:00–17:00\n星期五, 09:00–17:00\n星期六, 休息\n星期日, 休息\n星期一, 09:00–17:00\n星期二, 09:00–17:00\n星期三, 09:00–17:00",
+    "google_map_url": "https://www.google.com/maps/place/Peppertree+Apartments/data=!4m7!3m6!1s0x808fcd09fa8cb0b3:0x20213abb7f984dfe!8m2!3d37.3728904!4d-121.8399593!16s%2Fg%2F1tfjqyps!19sChIJs7CM-gnNj4AR_k2Yf7s6ISA?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_040.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场",
+      ": 允许带宠物",
+      ": 允许带狗"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2130,
+        "rentRangeLow": 1900,
+        "rentRangeHigh": 2370
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2080,
+        "rentRangeLow": 1850,
+        "rentRangeHigh": 2320
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2690,
+        "rentRangeLow": 2410,
+        "rentRangeHigh": 2970
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3660,
+        "rentRangeLow": 3050,
+        "rentRangeHigh": 4260
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 50,
+      "subway_stations": 1,
+      "total_transit": 51,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 3,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 3,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 51,
+      "car_score": 20,
+      "car_friendly_rating": "good"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 1013,
+      "by_category": {
+        "property": 73,
+        "public_disorder": 890,
+        "violent": 50
+      },
+      "safety_score": "fair"
+    }
+  },
+  {
+    "building_id": "santa_clara_041",
+    "title": "Villa Monterey",
+    "address": "2898 Villa Monterey, San Jose, CA 95111美国",
+    "lat": 37.2417263,
+    "lon": -121.8069258,
+    "type": "公寓小区",
+    "phone": "+1 408-365-9200",
+    "website": "https://www.eahhousing.org/apartments/villa-monterey/",
+    "review_rating": "4.6",
+    "review_count": "7",
+    "pricing": "$1,750 - $4,470",
+    "status": "星期四, 09:00–17:00\n星期五, 09:00–17:00\n星期六, 休息\n星期日, 休息\n星期一, 09:00–17:00\n星期二, 09:00–17:00\n星期三, 09:00–17:00",
+    "google_map_url": "https://www.google.com/maps/place/Santa+Palmia+at+Palm+Valley+Apartments/data=!4m7!3m6!1s0x808e2e26f61a8451:0x1771d6c6acc9d500!8m2!3d37.2417263!4d-121.8069258!16s%2Fg%2F1tdp9vnn!19sChIJUYQa9iYujoARANXJrMbWcRc?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_041.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场",
+      ": 允许带宠物",
+      ": 允许带狗"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2330,
+        "rentRangeLow": 1920,
+        "rentRangeHigh": 2750
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2220,
+        "rentRangeLow": 1750,
+        "rentRangeHigh": 2690
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3450,
+        "rentRangeLow": 3040,
+        "rentRangeHigh": 3860
+      },
+      {
+        "bedrooms": 3,
+        "rent": 4040,
+        "rentRangeLow": 3620,
+        "rentRangeHigh": 4470
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 30,
+      "subway_stations": 1,
+      "total_transit": 31,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 5,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 5,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 31,
+      "car_score": 40,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 482,
+      "by_category": {
+        "public_disorder": 427,
+        "violent": 21,
+        "property": 34
+      },
+      "safety_score": "excellent"
+    }
+  },
+  {
+    "building_id": "santa_clara_042",
+    "title": "Villa Monterey",
+    "address": "2898 Villa Monterey, San Jose, CA 95111美国",
+    "lat": 37.2743676,
+    "lon": -121.8383377,
+    "type": "公寓小区",
+    "phone": "+1 408-365-9200",
+    "website": "https://www.eahhousing.org/apartments/villa-monterey/",
+    "review_rating": "4.6",
+    "review_count": "7",
+    "pricing": "$2,240 - $3,680",
+    "status": "星期四, 09:00–17:00\n星期五, 09:00–17:00\n星期六, 休息\n星期日, 休息\n星期一, 09:00–17:00\n星期二, 09:00–17:00\n星期三, 09:00–17:00",
+    "google_map_url": "https://www.google.com/maps/place/Edenwood+Building+7/data=!4m7!3m6!1s0x808e3396a24db47d:0x908092e3401d8bd5!8m2!3d37.2743676!4d-121.8383377!16s%2Fg%2F11j9cl6llg!19sChIJfbRNopYzjoAR1YsdQOOSgJA?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_042.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2490,
+        "rentRangeLow": 2240,
+        "rentRangeHigh": 2730
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2600,
+        "rentRangeLow": 2500,
+        "rentRangeHigh": 2690
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3140,
+        "rentRangeLow": 3070,
+        "rentRangeHigh": 3220
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3620,
+        "rentRangeLow": 3560,
+        "rentRangeHigh": 3680
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 42,
+      "subway_stations": 0,
+      "total_transit": 42,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 5,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 5,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 42,
+      "car_score": 30,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 849,
+      "by_category": {
+        "public_disorder": 757,
+        "property": 50,
+        "violent": 42
+      },
+      "safety_score": "good"
+    }
+  },
+  {
+    "building_id": "santa_clara_043",
+    "title": "Villa Monterey",
+    "address": "2898 Villa Monterey, San Jose, CA 95111美国",
+    "lat": 37.2746995,
+    "lon": -121.8380376,
+    "type": "公寓小区",
+    "phone": "+1 408-365-9200",
+    "website": "https://www.eahhousing.org/apartments/villa-monterey/",
+    "review_rating": "4.6",
+    "review_count": "7",
+    "pricing": "$2,240 - $3,680",
+    "status": "星期四, 09:00–17:00\n星期五, 09:00–17:00\n星期六, 休息\n星期日, 休息\n星期一, 09:00–17:00\n星期二, 09:00–17:00\n星期三, 09:00–17:00",
+    "google_map_url": "https://www.google.com/maps/place/Edenwood+Building+10/data=!4m7!3m6!1s0x808e334385cc6f69:0x3759e933091b1100!8m2!3d37.2746995!4d-121.8380376!16s%2Fg%2F11k6shmxx6!19sChIJaW_MhUMzjoARABEbCTPpWTc?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_043.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2490,
+        "rentRangeLow": 2240,
+        "rentRangeHigh": 2740
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2600,
+        "rentRangeLow": 2510,
+        "rentRangeHigh": 2690
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3140,
+        "rentRangeLow": 3060,
+        "rentRangeHigh": 3220
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3610,
+        "rentRangeLow": 3540,
+        "rentRangeHigh": 3680
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 44,
+      "subway_stations": 0,
+      "total_transit": 44,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 5,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 5,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 44,
+      "car_score": 30,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 882,
+      "by_category": {
+        "public_disorder": 788,
+        "property": 51,
+        "violent": 43
+      },
+      "safety_score": "good"
+    }
+  },
+  {
+    "building_id": "santa_clara_044",
+    "title": "Villa Monterey",
+    "address": "2898 Villa Monterey, San Jose, CA 95111美国",
+    "lat": 37.3620576,
+    "lon": -121.831726,
+    "type": "公寓小区",
+    "phone": "+1 408-365-9200",
+    "website": "https://www.eahhousing.org/apartments/villa-monterey/",
+    "review_rating": "4.6",
+    "review_count": "7",
+    "pricing": "$1,790 - $3,910",
+    "status": "星期四, 09:00–17:00\n星期五, 09:00–17:00\n星期六, 休息\n星期日, 休息\n星期一, 09:00–17:00\n星期二, 09:00–17:00\n星期三, 09:00–17:00",
+    "google_map_url": "https://www.google.com/maps/place/Milagro+Apartments/data=!4m7!3m6!1s0x808fcd6b7cc40faf:0x3fce4ec925cf8ec8!8m2!3d37.3620576!4d-121.831726!16s%2Fg%2F1tfm6x9r!19sChIJrw_EfGvNj4ARyI7PJclOzj8?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_044.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2110,
+        "rentRangeLow": 1790,
+        "rentRangeHigh": 2430
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2100,
+        "rentRangeLow": 1820,
+        "rentRangeHigh": 2390
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2840,
+        "rentRangeLow": 2510,
+        "rentRangeHigh": 3180
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3290,
+        "rentRangeLow": 2670,
+        "rentRangeHigh": 3910
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 69,
+      "subway_stations": 2,
+      "total_transit": 71,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 1,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 1,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 71,
+      "car_score": 10,
+      "car_friendly_rating": "fair"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 1299,
+      "by_category": {
+        "public_disorder": 1167,
+        "property": 80,
+        "violent": 52
+      },
+      "safety_score": "poor"
+    }
+  },
+  {
+    "building_id": "santa_clara_045",
+    "title": "Casa Las Palmas",
+    "address": "220 N White Rd, San Jose, CA 95127美国",
+    "lat": 37.3725534,
+    "lon": -121.8331878,
+    "type": "公寓建筑",
+    "phone": "+1 408-259-0427",
+    "website": "",
+    "review_rating": "3.7",
+    "review_count": "6",
+    "pricing": "$1,860 - $4,040",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/Casa+Las+Palmas/data=!4m7!3m6!1s0x808fcd74db832f8d:0x41058c0136c92a9e!8m2!3d37.3725534!4d-121.8331878!16s%2Fg%2F1tql502q!19sChIJjS-D23TNj4ARnirJNgGMBUE?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_045.jpg",
+    "amenities": [],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2030,
+        "rentRangeLow": 1860,
+        "rentRangeHigh": 2200
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2030,
+        "rentRangeLow": 1870,
+        "rentRangeHigh": 2180
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2730,
+        "rentRangeLow": 2380,
+        "rentRangeHigh": 3090
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3480,
+        "rentRangeLow": 2930,
+        "rentRangeHigh": 4040
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 38,
+      "subway_stations": 1,
+      "total_transit": 39,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 2,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 2,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 39,
+      "car_score": 30,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 813,
+      "by_category": {
+        "property": 67,
+        "public_disorder": 711,
+        "violent": 35
+      },
+      "safety_score": "good"
+    }
+  },
+  {
+    "building_id": "santa_clara_046",
+    "title": "Casa Las Palmas",
+    "address": "220 N White Rd, San Jose, CA 95127美国",
+    "lat": 37.301491,
+    "lon": -121.84095,
+    "type": "公寓建筑",
+    "phone": "+1 408-259-0427",
+    "website": "",
+    "review_rating": "3.7",
+    "review_count": "6",
+    "pricing": "$1,550 - $4,240",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/Senterville+Terrace/data=!4m7!3m6!1s0x808e32f137330b37:0x71724c131a4e666!8m2!3d37.301491!4d-121.84095!16s%2Fg%2F11h3vbpgpf!19sChIJNwszN_EyjoARZuakMcEkFwc?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_046.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2040,
+        "rentRangeLow": 1550,
+        "rentRangeHigh": 2530
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2210,
+        "rentRangeLow": 1810,
+        "rentRangeHigh": 2620
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3110,
+        "rentRangeLow": 2820,
+        "rentRangeHigh": 3410
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3870,
+        "rentRangeLow": 3500,
+        "rentRangeHigh": 4240
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 54,
+      "subway_stations": 0,
+      "total_transit": 54,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 4,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 4,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 54,
+      "car_score": 10,
+      "car_friendly_rating": "fair"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 913,
+      "by_category": {
+        "public_disorder": 801,
+        "property": 74,
+        "violent": 38
+      },
+      "safety_score": "fair"
+    }
+  },
+  {
+    "building_id": "santa_clara_047",
+    "title": "Casa Las Palmas",
+    "address": "220 N White Rd, San Jose, CA 95127美国",
+    "lat": 37.341512,
+    "lon": -121.8597372,
+    "type": "公寓建筑",
+    "phone": "+1 408-259-0427",
+    "website": "",
+    "review_rating": "3.7",
+    "review_count": "6",
+    "pricing": "$1,500 - $4,110",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/SOjO+Apartments/data=!4m7!3m6!1s0x808fccd8e5649775:0x1ec37ad0c0a59b23!8m2!3d37.341512!4d-121.8597372!16s%2Fg%2F1tcv6k97!19sChIJdZdk5djMj4ARI5ulwNB6wx4?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_047.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 1720,
+        "rentRangeLow": 1500,
+        "rentRangeHigh": 1950
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2100,
+        "rentRangeLow": 1600,
+        "rentRangeHigh": 2600
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2670,
+        "rentRangeLow": 2340,
+        "rentRangeHigh": 3000
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3510,
+        "rentRangeLow": 2920,
+        "rentRangeHigh": 4110
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 68,
+      "subway_stations": 0,
+      "total_transit": 68,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 4,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 4,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 68,
+      "car_score": 10,
+      "car_friendly_rating": "fair"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 1526,
+      "by_category": {
+        "violent": 66,
+        "public_disorder": 1392,
+        "property": 68
+      },
+      "safety_score": "poor"
+    }
+  },
+  {
+    "building_id": "santa_clara_048",
+    "title": "Casa Las Palmas",
+    "address": "220 N White Rd, San Jose, CA 95127美国",
+    "lat": 37.3685382,
+    "lon": -121.8700632,
+    "type": "公寓建筑",
+    "phone": "+1 408-259-0427",
+    "website": "",
+    "review_rating": "3.7",
+    "review_count": "6",
+    "pricing": "$2,230 - $4,280",
+    "status": "",
+    "google_map_url": "https://www.google.com/maps/place/Sofi+Berryessa/data=!4m7!3m6!1s0x808fcc599a9aaeb7:0x5589f7189b78208d!8m2!3d37.3685382!4d-121.8700632!16s%2Fg%2F11c5xl23gr!19sChIJt66amlnMj4ARjSB4mxj3iVU?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_048.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场",
+      ": 允许带宠物",
+      ": 允许带狗"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2600,
+        "rentRangeLow": 2230,
+        "rentRangeHigh": 2960
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2750,
+        "rentRangeLow": 2600,
+        "rentRangeHigh": 2910
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3270,
+        "rentRangeLow": 3130,
+        "rentRangeHigh": 3420
+      },
+      {
+        "bedrooms": 3,
+        "rent": 4020,
+        "rentRangeLow": 3770,
+        "rentRangeHigh": 4280
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 44,
+      "subway_stations": 1,
+      "total_transit": 45,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 2,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 2,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 45,
+      "car_score": 30,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 768,
+      "by_category": {
+        "public_disorder": 685,
+        "property": 70,
+        "violent": 13
+      },
+      "safety_score": "good"
+    }
+  },
+  {
+    "building_id": "santa_clara_049",
+    "title": "Sofi Berryessa",
+    "address": "750 N King Rd, San Jose, CA 95133美国",
+    "lat": 37.2738255,
+    "lon": -121.8367408,
+    "type": "公寓小区",
+    "phone": "+1 669-247-0813",
+    "website": "https://www.sofiberryessa.com/?utm_source=gbp",
+    "review_rating": "4.6",
+    "review_count": "94",
+    "pricing": "$2,240 - $3,680",
+    "status": "星期四, 09:00–18:00\n星期五, 09:00–18:00\n星期六, 09:00–18:00\n星期日, 休息\n星期一, 09:00–18:00\n星期二, 09:00–18:00\n星期三, 09:00–18:00",
+    "google_map_url": "https://www.google.com/maps/place/Edenwood+Building+20/data=!4m7!3m6!1s0x808e33f1021ee837:0xc4357749af52230d!8m2!3d37.2738255!4d-121.8367408!16s%2Fg%2F11k6shxvyw!19sChIJN-geAvEzjoARDSNSr0l3NcQ?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_049.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2490,
+        "rentRangeLow": 2240,
+        "rentRangeHigh": 2740
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2600,
+        "rentRangeLow": 2500,
+        "rentRangeHigh": 2690
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3140,
+        "rentRangeLow": 3060,
+        "rentRangeHigh": 3220
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3620,
+        "rentRangeLow": 3560,
+        "rentRangeHigh": 3680
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 46,
+      "subway_stations": 0,
+      "total_transit": 46,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 4,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 4,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 46,
+      "car_score": 20,
+      "car_friendly_rating": "good"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 902,
+      "by_category": {
+        "public_disorder": 811,
+        "property": 52,
+        "violent": 39
+      },
+      "safety_score": "good"
+    }
+  },
+  {
+    "building_id": "santa_clara_050",
+    "title": "Sofi Berryessa",
+    "address": "750 N King Rd, San Jose, CA 95133美国",
+    "lat": 37.3167614,
+    "lon": -121.8411414,
+    "type": "公寓小区",
+    "phone": "+1 669-247-0813",
+    "website": "https://www.sofiberryessa.com/?utm_source=gbp",
+    "review_rating": "4.6",
+    "review_count": "94",
+    "pricing": "$1,470 - $4,170",
+    "status": "星期四, 09:00–18:00\n星期五, 09:00–18:00\n星期六, 09:00–18:00\n星期日, 休息\n星期一, 09:00–18:00\n星期二, 09:00–18:00\n星期三, 09:00–18:00",
+    "google_map_url": "https://www.google.com/maps/place/Valley+West+Apartments/data=!4m7!3m6!1s0x808e32c26d2d2a57:0x605d87e3d286a0e2!8m2!3d37.3167614!4d-121.8411414!16s%2Fg%2F1tl1j3j_!19sChIJVyotbcIyjoAR4qCG0uOHXWA?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_050.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场",
+      ": 允许带宠物",
+      ": 允许带狗"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 1900,
+        "rentRangeLow": 1470,
+        "rentRangeHigh": 2320
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2140,
+        "rentRangeLow": 1860,
+        "rentRangeHigh": 2420
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3020,
+        "rentRangeLow": 2710,
+        "rentRangeHigh": 3320
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3860,
+        "rentRangeLow": 3540,
+        "rentRangeHigh": 4170
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 53,
+      "subway_stations": 0,
+      "total_transit": 53,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 2,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 2,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 53,
+      "car_score": 10,
+      "car_friendly_rating": "fair"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 1116,
+      "by_category": {
+        "public_disorder": 1005,
+        "property": 61,
+        "violent": 50
+      },
+      "safety_score": "poor"
+    }
+  },
+  {
+    "building_id": "santa_clara_051",
+    "title": "Sofi Berryessa",
+    "address": "750 N King Rd, San Jose, CA 95133美国",
+    "lat": 37.3548033,
+    "lon": -121.8509283,
+    "type": "公寓小区",
+    "phone": "+1 669-247-0813",
+    "website": "https://www.sofiberryessa.com/?utm_source=gbp",
+    "review_rating": "4.6",
+    "review_count": "94",
+    "pricing": "$1,630 - $3,540",
+    "status": "星期四, 09:00–18:00\n星期五, 09:00–18:00\n星期六, 09:00–18:00\n星期日, 休息\n星期一, 09:00–18:00\n星期二, 09:00–18:00\n星期三, 09:00–18:00",
+    "google_map_url": "https://www.google.com/maps/place/Tierra+Encantada+Apartments/data=!4m7!3m6!1s0x808fcd1eb786202d:0xae0c9f7b5024b674!8m2!3d37.3548033!4d-121.8509283!16s%2Fg%2F1tfvt5mc!19sChIJLSCGtx7Nj4ARdLYkUHufDK4?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_051.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2020,
+        "rentRangeLow": 1630,
+        "rentRangeHigh": 2400
+      },
+      {
+        "bedrooms": 1,
+        "rent": 1960,
+        "rentRangeLow": 1640,
+        "rentRangeHigh": 2290
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2790,
+        "rentRangeLow": 2570,
+        "rentRangeHigh": 3000
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3280,
+        "rentRangeLow": 3020,
+        "rentRangeHigh": 3540
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 64,
+      "subway_stations": 0,
+      "total_transit": 64,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 4,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 4,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 64,
+      "car_score": 10,
+      "car_friendly_rating": "fair"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 1549,
+      "by_category": {
+        "property": 76,
+        "public_disorder": 1411,
+        "violent": 62
+      },
+      "safety_score": "poor"
+    }
+  },
+  {
+    "building_id": "santa_clara_052",
+    "title": "Sofi Berryessa",
+    "address": "750 N King Rd, San Jose, CA 95133美国",
+    "lat": 37.3781295,
+    "lon": -121.8286437,
+    "type": "公寓小区",
+    "phone": "+1 669-247-0813",
+    "website": "https://www.sofiberryessa.com/?utm_source=gbp",
+    "review_rating": "4.6",
+    "review_count": "94",
+    "pricing": "$1,840 - $3,970",
+    "status": "星期四, 09:00–18:00\n星期五, 09:00–18:00\n星期六, 09:00–18:00\n星期日, 休息\n星期一, 09:00–18:00\n星期二, 09:00–18:00\n星期三, 09:00–18:00",
+    "google_map_url": "https://www.google.com/maps/place/Villa+Fairlane+Apartments/data=!4m7!3m6!1s0x808fcd491f620491:0xea4165fdc5a49540!8m2!3d37.3781295!4d-121.8286437!16s%2Fg%2F11g0g8_kh4!19sChIJkQRiH0nNj4ARQJWkxf1lQeo?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_052.jpg",
+    "amenities": [],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2030,
+        "rentRangeLow": 1860,
+        "rentRangeHigh": 2190
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2060,
+        "rentRangeLow": 1840,
+        "rentRangeHigh": 2280
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2790,
+        "rentRangeLow": 2280,
+        "rentRangeHigh": 3300
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3770,
+        "rentRangeLow": 3560,
+        "rentRangeHigh": 3970
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 24,
+      "subway_stations": 1,
+      "total_transit": 25,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 1,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 1,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 25,
+      "car_score": 40,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 519,
+      "by_category": {
+        "property": 50,
+        "public_disorder": 444,
+        "violent": 25
+      },
+      "safety_score": "excellent"
+    }
+  },
+  {
+    "building_id": "santa_clara_053",
+    "title": "Sofi Berryessa",
+    "address": "750 N King Rd, San Jose, CA 95133美国",
+    "lat": 37.2538252,
+    "lon": -121.7963681,
+    "type": "公寓小区",
+    "phone": "+1 669-247-0813",
+    "website": "https://www.sofiberryessa.com/?utm_source=gbp",
+    "review_rating": "4.6",
+    "review_count": "94",
+    "pricing": "$1,630 - $4,490",
+    "status": "星期四, 09:00–18:00\n星期五, 09:00–18:00\n星期六, 09:00–18:00\n星期日, 休息\n星期一, 09:00–18:00\n星期二, 09:00–18:00\n星期三, 09:00–18:00",
+    "google_map_url": "https://www.google.com/maps/place/Ford+Road+Plaza/data=!4m7!3m6!1s0x808e2e1654992867:0x37afe988dd4b1852!8m2!3d37.2538252!4d-121.7963681!16s%2Fg%2F11dfj2ln7v!19sChIJZyiZVBYujoARUhhL3Yjprzc?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_053.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2300,
+        "rentRangeLow": 1940,
+        "rentRangeHigh": 2660
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2050,
+        "rentRangeLow": 1630,
+        "rentRangeHigh": 2480
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3370,
+        "rentRangeLow": 2880,
+        "rentRangeHigh": 3870
+      },
+      {
+        "bedrooms": 3,
+        "rent": 4130,
+        "rentRangeLow": 3770,
+        "rentRangeHigh": 4490
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 24,
+      "subway_stations": 1,
+      "total_transit": 25,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 4,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 4,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 25,
+      "car_score": 40,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 435,
+      "by_category": {
+        "public_disorder": 387,
+        "violent": 15,
+        "property": 33
+      },
+      "safety_score": "excellent"
+    }
+  },
+  {
+    "building_id": "santa_clara_054",
+    "title": "Sofi Berryessa",
+    "address": "750 N King Rd, San Jose, CA 95133美国",
+    "lat": 37.3705158,
+    "lon": -121.8410491,
+    "type": "公寓小区",
+    "phone": "+1 669-247-0813",
+    "website": "https://www.sofiberryessa.com/?utm_source=gbp",
+    "review_rating": "4.6",
+    "review_count": "94",
+    "pricing": "$1,920 - $4,160",
+    "status": "星期四, 09:00–18:00\n星期五, 09:00–18:00\n星期六, 09:00–18:00\n星期日, 休息\n星期一, 09:00–18:00\n星期二, 09:00–18:00\n星期三, 09:00–18:00",
+    "google_map_url": "https://www.google.com/maps/place/Arbor+Terraces/data=!4m7!3m6!1s0x808fcd09af3a5a5d:0x138a72da2cdc97e2!8m2!3d37.3705158!4d-121.8410491!16s%2Fg%2F1tg5zwk3!19sChIJXVo6rwnNj4AR4pfcLNpyihM?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_054.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2160,
+        "rentRangeLow": 1960,
+        "rentRangeHigh": 2360
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2120,
+        "rentRangeLow": 1920,
+        "rentRangeHigh": 2320
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2650,
+        "rentRangeLow": 2400,
+        "rentRangeHigh": 2890
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3560,
+        "rentRangeLow": 2970,
+        "rentRangeHigh": 4160
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 67,
+      "subway_stations": 2,
+      "total_transit": 69,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 2,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 2,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 69,
+      "car_score": 10,
+      "car_friendly_rating": "fair"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 1132,
+      "by_category": {
+        "property": 76,
+        "public_disorder": 1002,
+        "violent": 54
+      },
+      "safety_score": "poor"
+    }
+  },
+  {
+    "building_id": "santa_clara_055",
+    "title": "Sofi Berryessa",
+    "address": "750 N King Rd, San Jose, CA 95133美国",
+    "lat": 37.2662862,
+    "lon": -121.8345238,
+    "type": "公寓小区",
+    "phone": "+1 669-247-0813",
+    "website": "https://www.sofiberryessa.com/?utm_source=gbp",
+    "review_rating": "4.6",
+    "review_count": "94",
+    "pricing": "$2,220 - $4,050",
+    "status": "星期四, 09:00–18:00\n星期五, 09:00–18:00\n星期六, 09:00–18:00\n星期日, 休息\n星期一, 09:00–18:00\n星期二, 09:00–18:00\n星期三, 09:00–18:00",
+    "google_map_url": "https://www.google.com/maps/place/Building+1/data=!4m7!3m6!1s0x808e322265db99e5:0x70d6a35e413b0627!8m2!3d37.2662862!4d-121.8345238!16s%2Fg%2F11c2kjdw9p!19sChIJ5ZnbZSIyjoARJwY7QV6j1nA?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_055.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2480,
+        "rentRangeLow": 2220,
+        "rentRangeHigh": 2730
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2580,
+        "rentRangeLow": 2470,
+        "rentRangeHigh": 2700
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3200,
+        "rentRangeLow": 2960,
+        "rentRangeHigh": 3430
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3710,
+        "rentRangeLow": 3380,
+        "rentRangeHigh": 4050
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 38,
+      "subway_stations": 0,
+      "total_transit": 38,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 3,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 3,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 38,
+      "car_score": 30,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 701,
+      "by_category": {
+        "public_disorder": 637,
+        "property": 41,
+        "violent": 23
+      },
+      "safety_score": "excellent"
+    }
+  },
+  {
+    "building_id": "santa_clara_056",
+    "title": "Sofi Berryessa",
+    "address": "750 N King Rd, San Jose, CA 95133美国",
+    "lat": 37.3068716,
+    "lon": -121.8459957,
+    "type": "公寓小区",
+    "phone": "+1 669-247-0813",
+    "website": "https://www.sofiberryessa.com/?utm_source=gbp",
+    "review_rating": "4.6",
+    "review_count": "94",
+    "pricing": "$1,530 - $4,170",
+    "status": "星期四, 09:00–18:00\n星期五, 09:00–18:00\n星期六, 09:00–18:00\n星期日, 休息\n星期一, 09:00–18:00\n星期二, 09:00–18:00\n星期三, 09:00–18:00",
+    "google_map_url": "https://www.google.com/maps/place/Renascent+Place/data=!4m7!3m6!1s0x808e32e59fc10c57:0x1d05cc064e0d69d!8m2!3d37.3068716!4d-121.8459957!16s%2Fg%2F11hy9ppk38!19sChIJVwzBn-UyjoARndbgZMBc0AE?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_056.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场",
+      ": 允许带狗"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 1950,
+        "rentRangeLow": 1530,
+        "rentRangeHigh": 2370
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2200,
+        "rentRangeLow": 1790,
+        "rentRangeHigh": 2600
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3140,
+        "rentRangeLow": 2790,
+        "rentRangeHigh": 3500
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3900,
+        "rentRangeLow": 3620,
+        "rentRangeHigh": 4170
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 53,
+      "subway_stations": 0,
+      "total_transit": 53,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 3,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 3,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 53,
+      "car_score": 10,
+      "car_friendly_rating": "fair"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 997,
+      "by_category": {
+        "public_disorder": 891,
+        "property": 71,
+        "violent": 35
+      },
+      "safety_score": "fair"
+    }
+  },
+  {
+    "building_id": "santa_clara_057",
+    "title": "Sofi Berryessa",
+    "address": "750 N King Rd, San Jose, CA 95133美国",
+    "lat": 37.3257317,
+    "lon": -121.8539478,
+    "type": "公寓小区",
+    "phone": "+1 669-247-0813",
+    "website": "https://www.sofiberryessa.com/?utm_source=gbp",
+    "review_rating": "4.6",
+    "review_count": "94",
+    "pricing": "$1,380 - $4,050",
+    "status": "星期四, 09:00–18:00\n星期五, 09:00–18:00\n星期六, 09:00–18:00\n星期日, 休息\n星期一, 09:00–18:00\n星期二, 09:00–18:00\n星期三, 09:00–18:00",
+    "google_map_url": "https://www.google.com/maps/place/Villa+Solera+Apartments/data=!4m7!3m6!1s0x808e32d67748b94d:0xbab1665e84c0ebb7!8m2!3d37.3257317!4d-121.8539478!16s%2Fg%2F1tff381c!19sChIJTblId9YyjoARt-vAhF5msbo?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_057.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 1660,
+        "rentRangeLow": 1380,
+        "rentRangeHigh": 1930
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2010,
+        "rentRangeLow": 1490,
+        "rentRangeHigh": 2530
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2970,
+        "rentRangeLow": 2610,
+        "rentRangeHigh": 3330
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3670,
+        "rentRangeLow": 3290,
+        "rentRangeHigh": 4050
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 39,
+      "subway_stations": 0,
+      "total_transit": 39,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 7,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 7,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 39,
+      "car_score": 30,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 1022,
+      "by_category": {
+        "public_disorder": 911,
+        "property": 62,
+        "violent": 49
+      },
+      "safety_score": "fair"
+    }
+  },
+  {
+    "building_id": "santa_clara_058",
+    "title": "Sofi Berryessa",
+    "address": "750 N King Rd, San Jose, CA 95133美国",
+    "lat": 37.2782256,
+    "lon": -121.8376346,
+    "type": "公寓小区",
+    "phone": "+1 669-247-0813",
+    "website": "https://www.sofiberryessa.com/?utm_source=gbp",
+    "review_rating": "4.6",
+    "review_count": "94",
+    "pricing": "$2,240 - $3,680",
+    "status": "星期四, 09:00–18:00\n星期五, 09:00–18:00\n星期六, 09:00–18:00\n星期日, 休息\n星期一, 09:00–18:00\n星期二, 09:00–18:00\n星期三, 09:00–18:00",
+    "google_map_url": "https://www.google.com/maps/place/Brentwood+Building+16/data=!4m7!3m6!1s0x808e3374701dfe33:0xb87cdce793a531f3!8m2!3d37.2782256!4d-121.8376346!16s%2Fg%2F11jcl9cqgj!19sChIJM_4dcHQzjoAR8zGlk-fcfLg?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": null,
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2490,
+        "rentRangeLow": 2240,
+        "rentRangeHigh": 2740
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2590,
+        "rentRangeLow": 2500,
+        "rentRangeHigh": 2690
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3050,
+        "rentRangeLow": 2860,
+        "rentRangeHigh": 3240
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3620,
+        "rentRangeLow": 3560,
+        "rentRangeHigh": 3680
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 49,
+      "subway_stations": 0,
+      "total_transit": 49,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 5,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 5,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 49,
+      "car_score": 20,
+      "car_friendly_rating": "good"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 988,
+      "by_category": {
+        "public_disorder": 887,
+        "property": 54,
+        "violent": 47
+      },
+      "safety_score": "fair"
+    }
+  },
+  {
+    "building_id": "santa_clara_059",
+    "title": "Sofi Berryessa",
+    "address": "750 N King Rd, San Jose, CA 95133美国",
+    "lat": 37.2739277,
+    "lon": -121.8454291,
+    "type": "公寓小区",
+    "phone": "+1 669-247-0813",
+    "website": "https://www.sofiberryessa.com/?utm_source=gbp",
+    "review_rating": "4.6",
+    "review_count": "94",
+    "pricing": "$2,240 - $3,670",
+    "status": "星期四, 09:00–18:00\n星期五, 09:00–18:00\n星期六, 09:00–18:00\n星期日, 休息\n星期一, 09:00–18:00\n星期二, 09:00–18:00\n星期三, 09:00–18:00",
+    "google_map_url": "https://www.google.com/maps/place/Sofi+Waterford+Park/data=!4m7!3m6!1s0x808e3328332d4471:0x8593ca82841fd21f!8m2!3d37.2739277!4d-121.8454291!16s%2Fg%2F12vr2237s!19sChIJcUQtMygzjoARH9IfhILKk4U?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_059.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场",
+      ": 允许带宠物",
+      ": 允许带狗"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2490,
+        "rentRangeLow": 2240,
+        "rentRangeHigh": 2740
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2600,
+        "rentRangeLow": 2510,
+        "rentRangeHigh": 2690
+      },
+      {
+        "bedrooms": 2,
+        "rent": 3120,
+        "rentRangeLow": 3050,
+        "rentRangeHigh": 3200
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3600,
+        "rentRangeLow": 3540,
+        "rentRangeHigh": 3670
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 37,
+      "subway_stations": 2,
+      "total_transit": 39,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 5,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 5,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 39,
+      "car_score": 30,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 880,
+      "by_category": {
+        "public_disorder": 781,
+        "property": 59,
+        "violent": 40
+      },
+      "safety_score": "good"
+    }
+  },
+  {
+    "building_id": "santa_clara_060",
+    "title": "Sofi Berryessa",
+    "address": "750 N King Rd, San Jose, CA 95133美国",
+    "lat": 37.3250628,
+    "lon": -121.8552957,
+    "type": "公寓小区",
+    "phone": "+1 669-247-0813",
+    "website": "https://www.sofiberryessa.com/?utm_source=gbp",
+    "review_rating": "4.6",
+    "review_count": "94",
+    "pricing": "$1,380 - $4,050",
+    "status": "星期四, 09:00–18:00\n星期五, 09:00–18:00\n星期六, 09:00–18:00\n星期日, 休息\n星期一, 09:00–18:00\n星期二, 09:00–18:00\n星期三, 09:00–18:00",
+    "google_map_url": "https://www.google.com/maps/place/Oak+Circle+Apartments/data=!4m7!3m6!1s0x808e32d60c2cc6dd:0x5a901fb1f01d81e8!8m2!3d37.3250628!4d-121.8552957!16s%2Fg%2F1vfzfdhn!19sChIJ3cYsDNYyjoAR6IEd8LEfkFo?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_060.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 1660,
+        "rentRangeLow": 1380,
+        "rentRangeHigh": 1930
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2070,
+        "rentRangeLow": 1530,
+        "rentRangeHigh": 2620
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2890,
+        "rentRangeLow": 2530,
+        "rentRangeHigh": 3260
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3670,
+        "rentRangeLow": 3290,
+        "rentRangeHigh": 4050
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 42,
+      "subway_stations": 0,
+      "total_transit": 42,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 7,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 7,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 42,
+      "car_score": 30,
+      "car_friendly_rating": "excellent"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 1046,
+      "by_category": {
+        "public_disorder": 930,
+        "property": 63,
+        "violent": 53
+      },
+      "safety_score": "fair"
+    }
+  },
+  {
+    "building_id": "santa_clara_061",
+    "title": "San Marino",
+    "address": "2175 Aborn Rd, San Jose, CA 95121美国",
+    "lat": 37.31463,
+    "lon": -121.806996,
+    "type": "房屋租赁公司",
+    "phone": "+1 844-779-6729",
+    "website": "https://www.liveatsanmarinoapts.com/?rccustomid=NTk2ODg%3D-rrTH8GqJppg%3D&utm_source=gmb&utm_medium=organic",
+    "review_rating": "3.1",
+    "review_count": "18",
+    "pricing": "$1,740 - $4,100",
+    "status": "星期四, 09:00–18:00\n星期五, 09:00–18:00\n星期六, 10:00–17:00\n星期日, 休息\n星期一, 09:00–18:00\n星期二, 09:00–18:00\n星期三, 09:00–18:00",
+    "google_map_url": "https://www.google.com/maps/place/San+Marino/data=!4m7!3m6!1s0x808e2df46f99dd7f:0x83dd8a9def6a54c1!8m2!3d37.31463!4d-121.806996!16s%2Fg%2F11np72bvkv!19sChIJf92Zb_QtjoARwVRq752K3YM?authuser=0&hl=zh-CN&rclk=1",
+    "geocoding_status": "from_google_url",
+    "image_path": "img/building_061.jpg",
+    "amenities": [
+      "无障碍服务",
+      ": 无障碍入口",
+      ": 无障碍停车场"
+    ],
+    "county": "Santa Clara",
+    "county_code": "SC",
+    "rentcast_data": [
+      {
+        "bedrooms": 0,
+        "rent": 2070,
+        "rentRangeLow": 1740,
+        "rentRangeHigh": 2410
+      },
+      {
+        "bedrooms": 1,
+        "rent": 2070,
+        "rentRangeLow": 1740,
+        "rentRangeHigh": 2410
+      },
+      {
+        "bedrooms": 2,
+        "rent": 2980,
+        "rentRangeLow": 2590,
+        "rentRangeHigh": 3370
+      },
+      {
+        "bedrooms": 3,
+        "rent": 3880,
+        "rentRangeLow": 3650,
+        "rentRangeHigh": 4100
+      }
+    ],
+    "transit_accessibility": {
+      "radius_miles": 1.0,
+      "bus_stops": 49,
+      "subway_stations": 0,
+      "total_transit": 49,
+      "transit_score": "excellent"
+    },
+    "nearby_pois": {
+      "radius_miles": 1.0,
+      "categories": {
+        "dining": 0,
+        "shopping": 0,
+        "entertainment": 0,
+        "healthcare": 0,
+        "fitness": 4,
+        "education": 0,
+        "parks": 0
+      },
+      "total_pois": 4,
+      "poi_score": "poor"
+    },
+    "car_friendly": {
+      "has_parking": false,
+      "parking_details": [],
+      "transit_dependency": "low",
+      "total_transit_nearby": 49,
+      "car_score": 20,
+      "car_friendly_rating": "good"
+    },
+    "parking_facilities": {
+      "radius_miles": 0.1,
+      "total_parking_lots": 0,
+      "parking_types": {},
+      "public_parking": 0,
+      "private_parking": 0,
+      "customer_parking": 0,
+      "unknown_access": 0,
+      "parking_score": "poor"
+    },
+    "crime_stats": {
+      "radius_miles": 1.0,
+      "window_days": 180,
+      "cutoff_utc": "2025-05-04T04:59:50Z",
+      "total_incidents": 785,
+      "by_category": {
+        "public_disorder": 710,
+        "property": 49,
+        "violent": 26
+      },
+      "safety_score": "good"
+    }
+  }
+]

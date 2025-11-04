@@ -1,6 +1,7 @@
 // dataService.js - 数据服务层，处理所有数据库查询
 import { getSupabase } from './supabaseConfig.js';
 import translateApi from './translateApi.js';
+import { smartGeocode } from '../utils/addressParser.js';
 
 class DataService {
   constructor() {
@@ -428,36 +429,27 @@ class DataService {
   // 使用 Nominatim API 作为地理编码备选方案
   async geocodeWithNominatim(location) {
     try {
-      console.log('🌍 Using Nominatim geocoding for:', location);
+      console.log('🌍 Using smart geocoding for:', location);
       
-      const response = await fetch(
-        `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(location)}&format=json&limit=1&countrycodes=us`
-      );
+      const result = await smartGeocode(location);
       
-      if (!response.ok) {
-        throw new Error('Nominatim API request failed');
-      }
-      
-      const data = await response.json();
-      
-      if (data && data.length > 0) {
-        const result = data[0];
-        console.log('🎯 Nominatim found location:', result.display_name);
+      if (result) {
+        console.log('🎯 Geocoding found location:', result.displayName);
         
         return {
           location: {
-            name: result.display_name,
-            general_latitude: parseFloat(result.lat),
-            general_longitude: parseFloat(result.lon)
+            name: result.displayName,
+            general_latitude: result.lat,
+            general_longitude: result.lon
           },
           type: 'geocoded',
-          coordinates: [parseFloat(result.lat), parseFloat(result.lon)]
+          coordinates: [result.lat, result.lon]
         };
       }
       
       return null;
     } catch (error) {
-      console.error('❌ Nominatim geocoding failed:', error);
+      console.error('❌ Geocoding failed:', error);
       return null;
     }
   }
