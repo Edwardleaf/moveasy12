@@ -100,3 +100,6 @@ start_services.sh
 !building-center/src/assets/images/*.svg
 !building-center/src/assets/images/*.png
 !building-center/backend/ai_recommendation/data/processed/buildings/*/img/*.jpg
+
+# Exclude symlink directory for building images
+building-center/public/images/
