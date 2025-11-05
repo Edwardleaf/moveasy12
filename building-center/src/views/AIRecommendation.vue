@@ -1135,15 +1135,16 @@ const onApiReturned = (recommendations) => {
   // 存储推荐结果
   window.aiRecommendations = recommendations
   
-  console.log('✅ API返回，当前步骤:', currentAnalysisStep.value)
+  console.log('✅ API返回，立即跳转到结果页面')
   
-  // 如果动画已经完成，立即跳转
-  if (currentAnalysisStep.value >= analysisSteps.value.length) {
-    setTimeout(() => {
-      navigateToResults()
-    }, 500)
-  }
-  // 否则动画会自动加速完成
+  // 清除所有动画定时器
+  animationTimers.forEach(timer => clearTimeout(timer))
+  animationTimers = []
+  
+  // 立即跳转到结果页面，不等动画完成
+  setTimeout(() => {
+    navigateToResults()
+  }, 300)
 }
 
 // 跳转到结果页面
