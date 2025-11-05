@@ -37,6 +37,7 @@ app.use(cors({
       // 生产域名
       /^https:\/\/www\.themoveasy\.com$/,
       /^https:\/\/themoveasy\.com$/,
+      /^https:\/\/app\.themoveasy\.com$/,
       // 测试域名
       /^https:\/\/www\.mytestkimxyz\.xyz$/,
       /^https:\/\/mytestkimxyz\.xyz$/,

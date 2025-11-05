@@ -92,7 +92,6 @@ start_services.sh
 .pydistutils.cfg
 .claude.json
 
-# 排除图片文件（如果不需要上传）
 *.jpg
 *.jpeg
 *.png
@@ -100,3 +99,4 @@ start_services.sh
 *.svg
 !building-center/src/assets/images/*.svg
 !building-center/src/assets/images/*.png
+!building-center/backend/ai_recommendation/data/processed/buildings/*/img/*.jpg

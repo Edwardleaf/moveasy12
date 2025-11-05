@@ -399,8 +399,10 @@ const formatLease = computed(() => {
 const getBuildingImage = (rec) => {
   // 从county和building_id构建图片路径
   const county = rec.county || 'san_francisco'
-  // building_id格式是 "building_0001"，需要去掉 "building_0" 保留后面的数字
-  const buildingNum = rec.building_id.replace('building_0', '').padStart(3, '0')
+  // building_id格式是 "building_001" 或 "building_0001"，提取数字并格式化为3位
+  const match = rec.building_id.match(/\d+/)
+  const num = match ? parseInt(match[0], 10) : 1
+  const buildingNum = String(num).padStart(3, '0')
   return `/images/buildings/${county}/building_${buildingNum}.jpg`
 }
 

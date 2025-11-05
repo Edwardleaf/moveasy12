@@ -1281,7 +1281,8 @@ const handleDislike = () => {
 
 const handleImageError = (event) => {
   // 图片加载失败时使用占位图
-  event.target.src = '/favicon.ico'
+  console.warn('图片加载失败:', event.target.src)
+  event.target.src = 'https://via.placeholder.com/800x600/e0e0e0/666666?text=Building+Image'
 }
 
 // 反向地理编码：将坐标转换为地址
