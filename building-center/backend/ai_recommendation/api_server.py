@@ -70,7 +70,7 @@ def init_recommender():
             enriched_paths=[str(p) for p in ENRICHED_PATHS],
             embedding_paths=[str(p) for p in EMBEDDING_PATHS],
             openai_api_key=api_key,
-            gpt_model="gpt-5",  # 使用gpt-5模型
+            gpt_model="gpt-4o",  # 使用gpt-4o模型
         )
         print("✅ AI推荐器初始化完成")
 

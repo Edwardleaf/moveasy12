@@ -151,7 +151,7 @@ def cosine_similarity(vec_a: List[float], vec_b: List[float]) -> float:
 class OpenAIClient:
     """Minimal OpenAI client using HTTP requests (no external SDK dependency)."""
 
-    def __init__(self, api_key: str, model: str = "gpt-5"):
+    def __init__(self, api_key: str, model: str = "gpt-4o"):
         if not api_key:
             raise ValueError("OpenAI API key is required.")
         self.api_key = api_key
@@ -207,7 +207,7 @@ class HousingRecommender:
         enriched_paths: Iterable[str],
         embedding_paths: Iterable[str],
         openai_api_key: Optional[str] = None,
-        gpt_model: str = "gpt-5",
+        gpt_model: str = "gpt-4o",
         query_embedding_model: str = "text-embedding-3-small",
     ) -> None:
         self.enriched_paths = [Path(p) for p in enriched_paths]

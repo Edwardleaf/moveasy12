@@ -69,7 +69,7 @@ echo "━━━━━━━━━━━━━━━━━━━━━━━━�
 echo "  4️⃣  模型配置"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo ""
-echo "  GPT模型: gpt-5"
+echo "  GPT模型: gpt-4o"
 echo "  Embedding模型: text-embedding-3-small"
 echo ""
 
