@@ -1283,7 +1283,7 @@ const handleDislike = () => {
 const handleImageError = (event) => {
   // 图片加载失败时使用占位图
   console.warn('图片加载失败:', event.target.src)
-  event.target.src = 'https://via.placeholder.com/800x600/e0e0e0/666666?text=Building+Image'
+  event.target.src = '/image.png'
 }
 
 // 反向地理编码：将坐标转换为地址
@@ -1654,8 +1654,8 @@ const handleSubmitAll = async () => {
       })),
     location: {
       address: questionAnswers.value.location,
-      coordinates: questionAnswers.value.locationCoordinates,
-      radius: questionAnswers.value.searchRadius || 5
+      coordinates: questionAnswers.value.coordinates,  // 修复：使用正确的变量名
+      radius: parseFloat(questionAnswers.value.searchRadius) || 5.0
     },
     budget: {
       min: questionAnswers.value.budgetMin || 0,
@@ -1671,6 +1671,7 @@ const handleSubmitAll = async () => {
   }
   
   console.log('🤖 AI推荐请求数据:', aiRequestData)
+  console.log('📤 Request Body:', JSON.stringify(aiRequestData, null, 2))
   
   if (showPerformancePanel.value) {
     addPerformanceStep('🚀 发送API请求')
@@ -1678,8 +1679,11 @@ const handleSubmitAll = async () => {
   }
   
   try {
-    // 调用AI推荐API
-    const response = await fetch('http://localhost:5001/api/ai/recommend', {
+    // 调用AI推荐API (通过nginx代理)
+    const apiUrl = '/api/ai/recommend'
+    console.log('📡 API URL:', apiUrl)
+    
+    const response = await fetch(apiUrl, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -1687,12 +1691,18 @@ const handleSubmitAll = async () => {
       body: JSON.stringify(aiRequestData)
     })
     
+    console.log('📥 Response Status:', response.status, response.statusText)
+    console.log('📥 Response Headers:', Object.fromEntries(response.headers.entries()))
+    
     if (!response.ok) {
-      throw new Error(`API请求失败: ${response.status}`)
+      const errorText = await response.text()
+      console.error('❌ Response Error Body:', errorText)
+      throw new Error(`API请求失败: ${response.status} - ${errorText}`)
     }
     
     const result = await response.json()
     console.log('✅ AI推荐结果:', result)
+    console.log('📥 Response Body:', JSON.stringify(result, null, 2))
     
     if (showPerformancePanel.value) {
       performanceMetrics.value.apiEndTime = Date.now()
@@ -1703,20 +1713,19 @@ const handleSubmitAll = async () => {
     if (result.success) {
       // 检查是否有推荐结果
       if (!result.recommendations || result.recommendations.length === 0) {
-        message.warning('未找到符合条件的推荐，请尝试调整筛选条件')
-        // 仍然需要通知动画系统
-        onApiReturned({
-          recommendations: [],
-          userPreferences: {
-            location: questionAnswers.value.location,
-            coordinates: questionAnswers.value.coordinates,
-            budgetMin: questionAnswers.value.budgetMin || 0,
-            budgetMax: questionAnswers.value.budgetMax || 10000,
-            bedrooms: questionAnswers.value.bedrooms || [],
-            moveInTimeline: questionAnswers.value.moveInTimeline,
-            leaseTerm: questionAnswers.value.leaseTerm
-          }
-        })
+        console.warn('⚠️ 推荐列表为空')
+        console.log('📋 查看后端日志以了解原因')
+        
+        message.warning('未找到符合条件的推荐，请尝试调整筛选条件', { duration: 8000 })
+        
+        if (showPerformancePanel.value) {
+          addPerformanceStep('⚠️ 推荐结果为空')
+        }
+        
+        // Debug模式：返回到问卷最后一题，不跳转
+        console.log('🐛 返回问卷，允许用户修改条件重试')
+        currentPhase.value = 3
+        currentQuestion.value = totalQuestions
         return
       }
       
@@ -1747,16 +1756,27 @@ const handleSubmitAll = async () => {
     }
   } catch (error) {
     console.error('❌ AI推荐请求失败:', error)
-    message.error(`推荐请求失败: ${error.message}`)
+    console.error('❌ Error Stack:', error.stack)
+    console.error('❌ Error Details:', {
+      name: error.name,
+      message: error.message,
+      cause: error.cause
+    })
+    
+    // 显示详细错误信息
+    message.error(`推荐请求失败: ${error.message}`, { duration: 10000 })
     
     if (showPerformancePanel.value) {
       addPerformanceStep('❌ API请求失败: ' + error.message)
     }
     
-    // 失败时也可以选择跳转到浏览页面
-    setTimeout(() => {
-      router.push('/browse')
-    }, 2000)
+    // Debug模式：保持在当前页面，不跳转
+    console.log('🐛 Debug模式：保持在当前页面，请检查上面的日志')
+    console.log('📋 请求数据:', aiRequestData)
+    
+    // 返回到问卷最后一题，允许用户重试
+    currentPhase.value = 3
+    currentQuestion.value = totalQuestions
   }
 }
 </script>

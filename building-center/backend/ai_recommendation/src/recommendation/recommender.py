@@ -86,28 +86,29 @@ def ensure_list(value: Any) -> List[Any]:
 
 def geocode_location(query: str) -> Optional[Tuple[float, float]]:
     """
-    Resolve a place name to latitude/longitude using Nominatim.
+    Resolve a place name to latitude/longitude using Photon API (via local backend).
     Returns (lat, lon) in degrees if successful, otherwise None.
     """
-    params = {
-        "q": query,
-        "format": "json",
-        "limit": 1,
-    }
     try:
+        # 使用本地Node后端的Photon API（支持中文翻译）
         resp = requests.get(
-            "https://nominatim.openstreetmap.org/search",
-            params=params,
-            headers={"User-Agent": "Moveasy-Recommender/0.1"},
+            "http://localhost:5003/api/geo/search",
+            params={"q": query, "limit": 1},
             timeout=15,
         )
         resp.raise_for_status()
-        results = resp.json()
-        if not results:
-            return None
-        top = results[0]
-        return float(top["lat"]), float(top["lon"])
-    except Exception:
+        data = resp.json()
+        
+        # data格式: { top: {...}, candidates: [...] }
+        if data and data.get("top"):
+            top = data["top"]
+            lat = top.get("lat")
+            lon = top.get("lon")
+            if lat and lon:
+                return float(lat), float(lon)
+        return None
+    except Exception as e:
+        print(f"⚠️ Geocoding error: {e}")
         return None
 
 
@@ -350,6 +351,20 @@ class HousingRecommender:
 
         if lat is None or lon is None:
             # Fallback: return all buildings (already restricted to Bay Area)
+            print(f"⚠️ 地理编码失败，返回所有湾区建筑")
+            return list(self._buildings)
+        
+        # 验证坐标是否在湾区范围内
+        # 湾区大致范围: lat 36.9-38.9, lon -123.2 to -121.2
+        BAY_AREA_BOUNDS = {
+            "lat_min": 36.9, "lat_max": 38.9,
+            "lon_min": -123.2, "lon_max": -121.2
+        }
+        if not (BAY_AREA_BOUNDS["lat_min"] <= lat <= BAY_AREA_BOUNDS["lat_max"] and
+                BAY_AREA_BOUNDS["lon_min"] <= lon <= BAY_AREA_BOUNDS["lon_max"]):
+            print(f"⚠️ 坐标({lat:.4f}, {lon:.4f})不在湾区范围内")
+            print(f"   地址 '{location}' 可能被错误地理编码")
+            print(f"   回退到返回所有湾区建筑")
             return list(self._buildings)
 
         results = []

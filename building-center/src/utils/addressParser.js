@@ -141,18 +141,16 @@ export async function smartGeocode(addressStr) {
 }
 
 /**
- * 调用Nominatim API
+ * 调用后端Photon地理编码API (支持中文自动翻译)
  */
 async function geocodeWithNominatim(query) {
-  const url = `https://nominatim.openstreetmap.org/search?` +
-    `q=${encodeURIComponent(query)}&` +
-    `format=json&` +
-    `limit=1&` +
-    `countrycodes=us`
+  // 获取后端API基础URL
+  const apiBase = import.meta.env.VITE_API_BASE_URL || 'https://app.themoveasy.com'
+  const url = `${apiBase}/api/geo/search?q=${encodeURIComponent(query)}&limit=3`
   
   const response = await fetch(url, {
     headers: {
-      'User-Agent': 'BuildingCenter/1.0'
+      'Content-Type': 'application/json'
     }
   })
   
@@ -162,14 +160,28 @@ async function geocodeWithNominatim(query) {
   
   const data = await response.json()
   
-  if (data && data.length > 0) {
-    const result = data[0]
+  // data格式: { top: {...}, candidates: [...] }
+  if (data && data.top && data.top.lat && data.top.lon) {
+    const result = data.top
+    
+    // 组合显示名称
+    const displayParts = [
+      result.name,
+      result.city,
+      result.county,
+      result.state,
+      result.country
+    ].filter(Boolean)
+    
     return {
       lat: parseFloat(result.lat),
       lon: parseFloat(result.lon),
-      displayName: result.display_name,
-      type: result.type,
-      importance: result.importance
+      displayName: displayParts.join(', '),
+      city: result.city,
+      county: result.county,
+      state: result.state,
+      country: result.country,
+      type: result.city ? 'city' : 'location'
     }
   }
   

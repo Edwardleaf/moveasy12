@@ -2,6 +2,8 @@ const express = require('express');
 const cors = require('cors');
 const { Translate } = require('@google-cloud/translate').v2;
 const { createClient } = require('@supabase/supabase-js');
+const axios = require('axios');
+const { LRUCache } = require('lru-cache');
 require('dotenv').config();
 
 const app = express();
@@ -283,7 +285,225 @@ app.post('/api/translate/json', async (req, res) => {
   }
 });
 
+// ============================================================================
+// 地理编码服务 (Photon + LibreTranslate)
+// ============================================================================
+
+const PHOTON_BASE = process.env.PHOTON_BASE || 'https://photon.komoot.io';
+const LIBRETRANSLATE_URL = process.env.LIBRETRANSLATE_URL || 'http://localhost:5000';
+
+// 简单缓存，避免重复请求
+const geoCache = new LRUCache({
+  max: 500,
+  ttl: 1000 * 60 * 5 // 5 分钟
+});
+
+// 湾区常见城市中英文映射表
+const BAY_AREA_CITY_MAP = {
+  '旧金山': 'San Francisco',
+  '圣弗朗西斯科': 'San Francisco',
+  '三藩市': 'San Francisco',
+  '圣何塞': 'San Jose',
+  '圣荷西': 'San Jose',
+  '洛思阿图斯': 'Los Altos',
+  '洛斯阿尔托斯': 'Los Altos',
+  '帕洛阿尔托': 'Palo Alto',
+  '帕罗奥图': 'Palo Alto',
+  '山景城': 'Mountain View',
+  '桑尼维尔': 'Sunnyvale',
+  '桑尼韦尔': 'Sunnyvale',
+  '库比蒂诺': 'Cupertino',
+  '库珀蒂诺': 'Cupertino',
+  '圣克拉拉': 'Santa Clara',
+  '圣马特奥': 'San Mateo',
+  '雷德伍德城': 'Redwood City',
+  '弗里蒙特': 'Fremont',
+  '海沃德': 'Hayward',
+  '奥克兰': 'Oakland',
+  '伯克利': 'Berkeley',
+  '柏克莱': 'Berkeley',
+  '加州': 'California',
+  '加利福尼亚': 'California',
+  '美国': 'USA',
+};
+
+// 检测是否为中文
+function isChinese(text) {
+  return /[\u4e00-\u9fa5]/.test(text);
+}
+
+// 翻译中文到英文（优先使用城市映射表）
+async function translateToEnglish(text) {
+  try {
+    // 优先检查城市映射表
+    const cityMap = BAY_AREA_CITY_MAP[text.trim()];
+    if (cityMap) {
+      console.log(`   ✅ 使用城市映射表: "${text}" → "${cityMap}"`);
+      return cityMap;
+    }
+    
+    // 检查是否包含映射表中的城市名
+    for (const [chinese, english] of Object.entries(BAY_AREA_CITY_MAP)) {
+      if (text.includes(chinese)) {
+        const translated = text.replace(chinese, english);
+        console.log(`   ✅ 替换城市名: "${text}" → "${translated}"`);
+        return translated;
+      }
+    }
+    
+    // 使用LibreTranslate翻译
+    const response = await axios.post(`${LIBRETRANSLATE_URL}/translate`, {
+      q: text,
+      source: 'zh',
+      target: 'en',
+      format: 'text'
+    }, { timeout: 10000 });
+    
+    return response.data.translatedText || text;
+  } catch (error) {
+    console.error('Translation error:', error.message);
+    return text; // 失败时返回原文
+  }
+}
+
+// 统一抽取并规整行政区字段（Photon feature格式）
+function normalizeFeature(feature) {
+  const p = feature.properties || {};
+  const coords = feature.geometry?.coordinates || [];
+  
+  const city = p.city || p.town || p.village || p.suburb || p.neighbourhood || null;
+  const county = p.county || p.district || p.borough || null;
+  const state = p.state || null;
+  const country = p.country || null;
+
+  const streetLine = p.housenumber && p.street
+    ? `${p.housenumber} ${p.street}`
+    : (p.street || null);
+
+  const address = [
+    streetLine,
+    city,
+    state,
+    p.postcode || null,
+    country
+  ].filter(Boolean).join(', ');
+
+  return {
+    name: p.name || null,
+    address,
+    street: p.street || null,
+    housenumber: p.housenumber || null,
+    city,
+    county,
+    state,
+    country,
+    postcode: p.postcode || null,
+    lat: coords[1] || null,  // Photon用[lon, lat]格式
+    lon: coords[0] || null
+  };
+}
+
+// GET /api/geo/search?q=...&limit=5&lang=en
+app.get('/api/geo/search', async (req, res) => {
+  try {
+    let q = (req.query.q || '').trim();
+    if (!q) return res.status(400).json({ error: 'missing q' });
+
+    const limit = Math.min(parseInt(req.query.limit || '5', 10), 10);
+    const lang = (req.query.lang || 'en').trim();
+
+    console.log(`🌍 Geocoding: "${q}"`);
+
+    // 如果是中文，先翻译成英文
+    if (isChinese(q)) {
+      console.log('   检测到中文，翻译中...');
+      const translated = await translateToEnglish(q);
+      console.log(`   翻译结果: "${translated}"`);
+      q = translated;
+    }
+
+    const url = `${PHOTON_BASE}/api?q=${encodeURIComponent(q)}&limit=${limit}&lang=${encodeURIComponent(lang)}`;
+
+    // 简单本地缓存
+    if (geoCache.has(url)) {
+      console.log('   ✅ 使用缓存结果');
+      return res.json(geoCache.get(url));
+    }
+
+    const { data } = await axios.get(url, { timeout: 10000 });
+    const features = Array.isArray(data?.features) ? data.features : [];
+
+    if (features.length === 0) {
+      console.log('   ⚠️ 未找到结果');
+    } else {
+      console.log(`   ✅ 找到 ${features.length} 个结果`);
+    }
+
+    // 过滤：只保留美国的结果
+    const usFeatures = features.filter(f => {
+      const country = f.properties?.country;
+      return country === 'United States' || country === 'United States of America' || country === 'USA';
+    });
+
+    if (usFeatures.length === 0 && features.length > 0) {
+      console.log('   ⚠️ 过滤后没有美国结果，尝试添加 California 后缀重试...');
+      // 如果没有美国结果，尝试添加California重试
+      const retryQuery = `${q}, California, USA`;
+      const retryUrl = `${PHOTON_BASE}/api?q=${encodeURIComponent(retryQuery)}&limit=${limit}&lang=${encodeURIComponent(lang)}`;
+      const { data: retryData } = await axios.get(retryUrl, { timeout: 10000 });
+      const retryFeatures = Array.isArray(retryData?.features) ? retryData.features : [];
+      const retryUsFeatures = retryFeatures.filter(f => {
+        const country = f.properties?.country;
+        return country === 'United States' || country === 'United States of America' || country === 'USA';
+      });
+      
+      if (retryUsFeatures.length > 0) {
+        console.log(`   ✅ 重试成功，找到 ${retryUsFeatures.length} 个美国结果`);
+        const candidates = retryUsFeatures.map(f => normalizeFeature(f));
+        const payload = { top: candidates[0] || null, candidates };
+        geoCache.set(url, payload);
+        return res.json(payload);
+      }
+    }
+
+    const candidates = usFeatures.map(f => normalizeFeature(f));
+    const payload = { top: candidates[0] || null, candidates };
+
+    geoCache.set(url, payload);
+    res.json(payload);
+  } catch (err) {
+    console.error('Geocoding error:', err?.message || err);
+    res.status(500).json({ error: 'internal_error', message: err.message });
+  }
+});
+
+// GET /api/geo/reverse?lat=...&lon=...&lang=en
+app.get('/api/geo/reverse', async (req, res) => {
+  try {
+    const { lat, lon } = req.query;
+    if (!lat || !lon) return res.status(400).json({ error: 'missing lat/lon' });
+
+    const lang = (req.query.lang || 'en').trim();
+    const url = `${PHOTON_BASE}/reverse?lat=${encodeURIComponent(lat)}&lon=${encodeURIComponent(lon)}&lang=${encodeURIComponent(lang)}`;
+
+    if (geoCache.has(url)) return res.json(geoCache.get(url));
+
+    const { data } = await axios.get(url, { timeout: 10000 });
+    const features = Array.isArray(data?.features) ? data.features : [];
+
+    const candidates = features.map(f => normalizeFeature(f));
+    const payload = { top: candidates[0] || null, candidates };
+
+    geoCache.set(url, payload);
+    res.json(payload);
+  } catch (err) {
+    console.error('Reverse geocoding error:', err?.message || err);
+    res.status(500).json({ error: 'internal_error', message: err.message });
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`Backend server running on port ${PORT}`);
   console.log(`Environment: ${process.env.NODE_ENV}`);
+  console.log(`Geocoding: Photon (${PHOTON_BASE}) + LibreTranslate (${LIBRETRANSLATE_URL})`);
 });
