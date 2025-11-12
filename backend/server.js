@@ -502,6 +502,90 @@ app.get('/api/geo/reverse', async (req, res) => {
   }
 });
 
+// AI Recommendation endpoint
+app.post('/api/ai/recommend', async (req, res) => {
+  try {
+    console.log('🤖 AI recommendation request received:', req.body);
+
+    const {
+      targetGroup,
+      universities,
+      location,
+      budget,
+      priorities,
+      housingType,
+      roommatePreference,
+      bedrooms,
+      bathrooms,
+      moveInTimeline,
+      leaseTerm
+    } = req.body;
+
+    // Basic validation
+    if (!location || !location.address) {
+      return res.status(400).json({
+        error: 'validation_error',
+        message: 'Location is required'
+      });
+    }
+
+    // Mock AI recommendation logic
+    // In a real implementation, this would call an AI service or run complex algorithms
+    const recommendations = [];
+
+    // Generate mock recommendations based on the criteria
+    for (let i = 0; i < 5; i++) {
+      const mockPrice = budget.min + Math.random() * (budget.max - budget.min);
+      const mockScore = 70 + Math.random() * 30; // 70-100 score
+
+      recommendations.push({
+        id: `mock_${i + 1}`,
+        name: `Recommended Property ${i + 1}`,
+        type: housingType[0] || 'apartment',
+        address: `${location.address}, Area ${i + 1}`,
+        price: Math.round(mockPrice),
+        bedrooms: bedrooms[0] || 2,
+        bathrooms: bathrooms[0] || 1,
+        score: Math.round(mockScore),
+        description: `Great match for your preferences in ${location.address}`,
+        amenities: ['WiFi', 'Kitchen', 'Laundry'],
+        distance: Math.round(location.radius * (0.5 + Math.random() * 1.5) * 10) / 10,
+        matchReasons: priorities.slice(0, 3),
+        images: [`https://picsum.photos/seed/prop${i + 1}/400/300.jpg`]
+      });
+    }
+
+    // Sort by score
+    recommendations.sort((a, b) => b.score - a.score);
+
+    const response = {
+      success: true,
+      recommendations,
+      criteria: {
+        targetGroup,
+        universities: universities.map(u => u.name),
+        location: location.address,
+        budget: `${budget.min}-${budget.max}`,
+        priorities,
+        housingType,
+        roommatePreference
+      },
+      totalResults: recommendations.length,
+      searchRadius: location.radius
+    };
+
+    console.log('✅ AI recommendations generated:', response.totalResults, 'results');
+    res.json(response);
+
+  } catch (error) {
+    console.error('❌ AI recommendation error:', error);
+    res.status(500).json({
+      error: 'internal_error',
+      message: 'Failed to generate recommendations'
+    });
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`Backend server running on port ${PORT}`);
   console.log(`Environment: ${process.env.NODE_ENV}`);
